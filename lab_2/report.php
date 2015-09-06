@@ -47,9 +47,9 @@
         
         echo ' and were gone for ' . $how_long . '<br />';
         
-        echo 'Number of Aliens: ' . $how_many . 'br />';
+        echo 'Number of Aliens: ' . $how_many . '<br />';
         
-        echo 'Describe them: ' . $alien_description . 'br />';
+        echo 'Describe them: ' . $alien_description . '<br />';
         
         echo 'Was Fang there? ' . $fang_spotted . '<br />';
         
