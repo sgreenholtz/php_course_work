@@ -4,7 +4,7 @@
     
     $email_body = $_POST['elvismail'];
     
-    $from = 'elmer@makemeelvis.com';
+    $from = 'sgreenholtz@madisoncollege.edu';
     
     $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'elvis_store')
         or die('Failed to connect to database.');
