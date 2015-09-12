@@ -1,6 +1,6 @@
 <?php
 
-    $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'c9')
+    $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'elvis_store')
         or die ('Error connecting to MySQL server.');
 
     $first_name = $_POST['firstname'];
