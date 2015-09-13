@@ -1,0 +1,6 @@
+[12-Sep-2015 21:40:03 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php-course-work/lab_3/addemail.php on line 6
+[12-Sep-2015 21:40:03 UTC] PHP Stack trace:
+[12-Sep-2015 21:40:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_3/addemail.php:0
+[12-Sep-2015 21:41:26 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php-course-work/lab_3/addemail.php on line 6
+[12-Sep-2015 21:41:26 UTC] PHP Stack trace:
+[12-Sep-2015 21:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_3/addemail.php:0
