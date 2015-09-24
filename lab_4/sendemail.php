@@ -6,8 +6,7 @@
     
     $from = 'sgreenholtz@madisoncollege.edu';
     
-    if (!$empty($subject)) {
-        if !($empty($email_body)) {
+    if ((!$empty($subject)) || (!$empty($email_body))) {
         
             $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'elvis_store')
                 or die('Failed to connect to database.');
@@ -30,7 +29,6 @@
             mysqli_close($dbc);
             }
         }
-    }
     else {
         echo "Subject or Body is empty. Please try again";
     }
