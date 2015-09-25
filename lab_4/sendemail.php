@@ -1,5 +1,5 @@
 <?php
-    if (isset($_POST['submit'])) 
+    if (isset($_POST['Submit'])) 
     {
         $subject = $_POST['subject'];
         $email_body = $_POST['elvismail'];
@@ -62,7 +62,7 @@
         <label for="elvismail">Body of email:</label><br />
         <textarea id="elvismail" name="elvismail" rows="8" cols="40" value="<?php echo $email_body; ?>"></textarea><br />
         
-        <input type="submit" name="submit" value="Submit" />
+        <input type="submit" name="Submit" value="Submit" />
     </form>
 
 <?php
