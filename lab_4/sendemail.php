@@ -1,22 +1,24 @@
 <?php
     
     $subject = $_POST['subject'];
-    
     $email_body = $_POST['elvismail'];
-    
     $from = 'sgreenholtz@madisoncollege.edu';
+    $output_form = false;
     
     if ((empty($subject)) && (empty($email_body))) 
     {
-        echo "You did not enter a subject or email body!";   
+        echo "You did not enter a subject or email body!";  
+        $output_form = true;
     }
     elseif (empty($subject))
     {
         echo "You did not enter a subject!";
+        $output_form = true;
     }
     elseif (empty($email_body))
     {
         echo "You did not enter an email body!";
+        $output_form = true;
     }
     else
     {
@@ -42,5 +44,18 @@
         
         mysqli_close($dbc);
     }
-    
+  
+    if ($output_form) {
+?>
+
+    <form method="post" action="sendemail.php">
+        <label for="subject">Subject of email:</label><br />
+        <input id="subject" name="subject" type="text" size="30" /><br />
+        <label for="elvismail">Body of email:</label><br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="40"></textarea><br />
+        <input type="submit" name="Submit" value="Submit" />
+    </form>
+
+<?php
+    }
 ?>
