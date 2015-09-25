@@ -17,7 +17,7 @@
             <label for="noun">Enter a noun: </label>
             <input name="noun" type="text" /> <br />
             
-            <label for="verb">Enter a verb: </label>
+            <label for="verb">Enter a verb (present tense): </label>
             <input name="verb" type="text" /><br />
             
             <label for="adjective">Enter an adjective: </label>
