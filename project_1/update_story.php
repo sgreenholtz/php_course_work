@@ -1,16 +1,4 @@
-<?php
-
-    $noun = $_POST['noun'];
-    $adjective = $_POST['adjective'];
-    $adverb = $_POST['adverb'];
-    $verb = $_POST['verb'];
-    
-    
-    echo "Once there was a $adjective $noun from Texas that liked to " .
-        "$adverb $verb anyone passing by."
-?>
-
-<form action="<?php $_SERVER[SELF_PHP] ?>" method="post">
+<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
     <label for="noun">Enter a noun: </label>
     <input name="noun" type="text" /> <br />
             
@@ -25,3 +13,14 @@
             
     <input type="submit" name="Submit" />
 </form>
+
+<?php
+
+    $noun = $_POST['noun'];
+    $adjective = $_POST['adjective'];
+    $adverb = $_POST['adverb'];
+    $verb = $_POST['verb'];
+    
+    echo "Once there was a $adjective $noun from Texas that liked to " .
+        "$adverb $verb anyone passing by."
+?>

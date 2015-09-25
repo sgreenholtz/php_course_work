@@ -7,12 +7,6 @@
     
     <body>
         
-        <?php
-            
-        
-    
-        ?>
-        
         <form enctype="multipart/form-data" action="update_story.php" method="post" role="form">
             <label for="noun">Enter a noun: </label>
             <input name="noun" type="text" /> <br />
