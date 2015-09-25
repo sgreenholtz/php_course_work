@@ -2,11 +2,11 @@
     if (isset($_POST['Submit'])) 
     {
         $subject = $_POST['subject'];
-        $email_body = $_POST['elvismail'];
+        $body = $_POST['elvismail'];
         $from = 'sgreenholtz@madisoncollege.edu';
         $output_form = false;
     
-        if (empty($subject) && empty($email_body)) 
+        if (empty($subject) && empty($body)) 
         {
             echo "You did not enter a subject or email body!";  
             $output_form = true;
@@ -16,7 +16,7 @@
             echo "You did not enter a subject!";
             $output_form = true;
         }
-        elseif (empty($email_body))
+        elseif (empty($body))
         {
             echo "You did not enter an email body!";
             $output_form = true;
@@ -36,7 +36,7 @@
                 $last_name = $row['last_name'];
                 $email = $row['email'];
             
-                $msg = "Dear $first_name $last_name, \n$email_body";
+                $msg = "Dear $first_name $last_name, \n$body";
             
                 mail($email, $subject, $msg, 'From:' . $from);
             
@@ -60,7 +60,7 @@
         <input id="subject" name="subject" type="text" size="30" value="<?php echo $subject; ?>" /><br />
         
         <label for="elvismail">Body of email:</label><br />
-        <textarea id="elvismail" name="elvismail" rows="8" cols="40" value="<?php echo $email_body; ?>"></textarea><br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="40" value="<?php echo $body; ?>"></textarea><br />
         
         <input type="submit" name="Submit" value="Submit" />
     </form>
