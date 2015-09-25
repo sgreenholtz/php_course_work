@@ -6,7 +6,7 @@
         $from = 'sgreenholtz@madisoncollege.edu';
         $output_form = false;
     
-        if ((empty($subject)) && (empty($email_body))) 
+        if (empty($subject) && empty($email_body)) 
         {
             echo "You did not enter a subject or email body!";  
             $output_form = true;
@@ -57,10 +57,10 @@
 
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="subject">Subject of email:</label><br />
-        <input id="subject" name="subject" type="text" size="30" /><br />
+        <input id="subject" name="subject" type="text" size="30" value="<?php echo $subject; ?>" /><br />
         
         <label for="elvismail">Body of email:</label><br />
-        <textarea id="elvismail" name="elvismail" rows="8" cols="40"></textarea><br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="40" value="<?php echo $email_body; ?>"></textarea><br />
         
         <input type="submit" name="Submit" value="Submit" />
     </form>
