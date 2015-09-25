@@ -1,0 +1,3 @@
+[25-Sep-2015 00:02:38 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php-course-work/lab_4/sendemail.php on line 9
+[25-Sep-2015 00:02:38 UTC] PHP Stack trace:
+[25-Sep-2015 00:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_4/sendemail.php:0
