@@ -34,8 +34,6 @@
             </div>
         
             <?php
-                if (isset($_POST['Submit']))
-                {
                     $noun = $_POST['noun'];
                     $adjective = $_POST['adjective'];
                     $adverb = $_POST['adverb'];
@@ -48,38 +46,29 @@
                     $inserted = mysqli_query($dbc, $insert_query);
                     $selected = mysqli_query($dbc, $select_query);
                     
-                    if ((empty($noun)) || (empty($adjective)) || 
-                        (empty($adverb)) || (empty($verb)))
+                    if (isset($_POST['Submit']))
                     {
-                        echo "Please enter all values into the form above.";
-                    }
-                    else
-                    {
+                        if ((empty($noun)) || (empty($adjective)) || 
+                            (empty($adverb)) || (empty($verb)))
+                        {
+                            echo "Please enter all values";
+                        }
                         if ($inserted)
-                        { ?>
-                            <table>
-                            <?php while ($row = mysqli_fetch_assoc($selected))
-                            { ?>
-                                <tr>
-                                    <td>
-                                        Once there was a <?php $row["adjective"] .
-                                        $row["noun"] ?> from Texas who like to 
-                                        <?php $row["adverb"] . $row["verb"] 
-                                        ?> anyone passing by.
-                                    </td>
-                                </tr>
-                            <?php } ?>
-                            </table>
-                        <?php }
+                            {
+                                include('story_table.php');
+                            }
                         else
                         {
                             echo "Failed to update story in the database.";
-                            
+                                
                         } // end of else insert
-                    
-                    } // end of else enter all values
+                    } // end of if isset Submit
+                    else
+                    {
+                        include('story_table.php');
+                    }
                 
-                } // end of if isset Submit
+                
             ?>
         </div>
         
