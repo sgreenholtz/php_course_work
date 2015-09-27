@@ -40,9 +40,11 @@
                     $verb = $_POST['verb'];
                     
                     $dbc = mysqli_connect("localhost", "sgreenholtz", "", "project_1");
+                    
                     $insert_query = "INSERT INTO story (noun,verb,adjective," .
                         "adverb) VALUES ('$noun','$verb','$adjective','$adverb')";
-                    $select_query = "SELECT * FROM story ORDER BY id ASC";
+                    $select_query = "SELECT * FROM story ORDER BY id DESC";
+                    
                     $inserted = mysqli_query($dbc, $insert_query);
                     $selected = mysqli_query($dbc, $select_query);
                     
@@ -50,9 +52,11 @@
                     {
                         if ((empty($noun)) || (empty($adjective)) || 
                             (empty($adverb)) || (empty($verb)))
-                        {
-                            echo "Please enter all values";
-                        }
+                        { ?>
+                            <div class ="error">
+                                Please enter all values.
+                            </div>
+                        <?php }
                         if ($inserted)
                             {
                                 include('story_table.php');
