@@ -52,16 +52,16 @@
                 $inserted = mysqli_query($dbc, $insert_query);
                 $selected = mysqli_query($dbc, $select_query);
 
-                /* If select is hit */
+                /* If Submit is hit */
                 if (isset($_POST['Submit']))
                 {
 
                     /*
-                     If any of the input fields is blank and you are NOT trying
-                     to clear old stories, echo error
+                     If you are not trying to clear
                     */
                     if (!isset($_POST['clear']))
                     {
+                        /* If any of the input fields are blank */
                         if ((empty($noun)) || (empty($adjective)) ||
                             (empty($adverb)) || (empty($verb)))
                         { ?>
@@ -69,37 +69,40 @@
                                 Please enter all values.
                             </div>
                         <?php }
+                        /*
+                         If fields are filled in, update and echo stories
+                        */
+                        elseif ($inserted)
+                        {
+                            include('story_table.php');
+                        }
                     }
+
 
                     /*
-                     If all the input fields are filled in, insert values into
-                     the database
+                     If you are trying to clear
                     */
-
-                    /*
-                     If clear is selected, clear old stories then echo the
-                     new story
-                    */
-                    elseif (isset($_POST['clear']))
-                    {
-                        include('story_table_clear.php');
-                        $delete_query = "DELETE FROM story";
-                        mysqli_query($dbc, $delete_query);
-                        echo "Old stories deleted.";
-                        mysqli_query($dbc, $insert_query);
-                    }
-
-                    /* Just echo all stories */
-                    elseif ($inserted)
-                    {
-                        include('story_table.php');
-                    }
-
-                    /* If there is an error inserting into the database */
                     else
                     {
-                        echo "Failed to update story in the database.";
-                    }
+                        /* If the input fields are blank, just delete stories */
+                        if ((empty($noun)) && (empty($adjective)) &&
+                            (empty($adverb)) && (empty($verb)))
+                        {
+                            include('delete_old.php');
+                        }
+
+                        /* If there are values, update and delete */
+                        else
+                        {
+                            include('story_table_clear.php');
+                            include('delete_old.php');
+                            mysqli_query($dbc, $insert_query)
+                                or die('Error updating database.');
+                        } // end of else if there are values and clearing
+
+                    } // end of else if clearing
+
+
                 } // end of if isset Submit
 
                 /*
