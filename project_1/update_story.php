@@ -74,7 +74,10 @@
                     {
                         include('story_table.php');
                     }
-                if (isset($_POST['Clear']))
+                if (isset($_POST['clear']))
+                {
+                    
+                }
                 
                 
             ?>
