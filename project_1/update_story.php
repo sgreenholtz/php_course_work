@@ -51,7 +51,7 @@
                     $inserted = mysqli_query($dbc, $insert_query);
                     $selected = mysqli_query($dbc, $select_query);
                     
-                    if (isset($_POST['Submit']))
+                    if (isset($_POST['Submit']) && (!isset($_POST['clear'])))
                     {
                         if ((empty($noun)) || (empty($adjective)) || 
                             (empty($adverb)) || (empty($verb)))
@@ -76,7 +76,8 @@
                     }
                 if (isset($_POST['clear']))
                 {
-                    
+                    $delete_query = "DELETE FROM story";
+                    mysqli_query($dbc, $delete_query);
                 }
                 
                 
