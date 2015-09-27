@@ -70,15 +70,15 @@
                                 
                         } // end of else insert
                     } // end of if isset Submit
+                    elseif (isset($_POST['clear']))
+                    {
+                        $delete_query = "DELETE FROM story";
+                        mysqli_query($dbc, $delete_query);
+                    }
                     else
                     {
                         include('story_table.php');
                     }
-                if (isset($_POST['clear']))
-                {
-                    $delete_query = "DELETE FROM story";
-                    mysqli_query($dbc, $delete_query);
-                }
                 
                 
             ?>
