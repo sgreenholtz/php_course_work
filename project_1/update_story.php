@@ -41,6 +41,11 @@
                     $adverb = $_POST['adverb'];
                     $verb = $_POST['verb'];
                     
+                    $dbc = mysqli_connect("localhost", "sgreeholtz", "", "project_1");
+                    $insert_query = "INSERT INTO story (noun,verb,adjective," .
+                        "adverb) VALUES ('$noun','$verb','$adjective','$adverb')";
+                    $select_query = "SELECT * FROM story ORDER BY id ASC";
+                    
                     if ((empty($noun)) || (empty($adjective)) || 
                         (empty($adverb)) || (empty($verb)))
                     {
