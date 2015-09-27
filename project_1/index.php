@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Mad Libs Game!</title>
-        <link href="index.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
     </head>
     
     <body>
@@ -22,5 +22,6 @@
             
             <input type="submit" name="Submit" />
         </form>
+        
     </body>
 </html>
