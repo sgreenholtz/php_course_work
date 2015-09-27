@@ -41,12 +41,19 @@
                     $adverb = $_POST['adverb'];
                     $verb = $_POST['verb'];
                     
-                    
-                    
-                    echo "Once there was a $adjective $noun from Texas that liked to " .
-                        "$adverb $verb anyone passing by.";
+                    if ((empty($noun)) || (empty($adjective)) || 
+                        (empty($adverb)) || (empty($verb)))
+                    {
+                        echo "Please enter all values into the form above.";
+                    }
+                    else
+                    {
+                        echo "Once there was a $adjective $noun from Texas " .
+                            "that liked to $adverb $verb anyone passing by.";
+                    }
                 }
             ?>
         </div>
+        
     </body>
 </html>
