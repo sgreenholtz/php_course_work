@@ -6,22 +6,31 @@
     </head>
     
     <body>
+        <div class="container">
+            <h2>Enter words to complete the story!</h2>
+            
+            <form enctype="multipart/form-data" action="update_story.php" method="post" role="form">
+                <label for="noun">Enter a noun: </label>
+                <input name="noun" type="text" /> <br />
+                
+                <label for="verb">Enter a verb (present tense): </label>
+                <input name="verb" type="text" /><br />
+                
+                <label for="adjective">Enter an adjective: </label>
+                <input name="adjective" type="text" /><br />
+                
+                <label for="adverb">Enter an adverb: </label>
+                <input name="adverb" type="text" /><br />
+                
+                <div class="submit">
+                    <input type="submit" name="Submit" />
+                </div>
+            </form>
+            
+            <div class="line">
+                <hr />
+            </div>
         
-        <form enctype="multipart/form-data" action="update_story.php" method="post" role="form">
-            <label for="noun">Enter a noun: </label>
-            <input name="noun" type="text" /> <br />
-            
-            <label for="verb">Enter a verb (present tense): </label>
-            <input name="verb" type="text" /><br />
-            
-            <label for="adjective">Enter an adjective: </label>
-            <input name="adjective" type="text" /><br />
-            
-            <label for="adverb">Enter an adverb: </label>
-            <input name="adverb" type="text" /><br />
-            
-            <input type="submit" name="Submit" />
-        </form>
-        
+        </div>
     </body>
 </html>
