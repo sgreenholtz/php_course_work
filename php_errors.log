@@ -7,3 +7,6 @@
 [27-Sep-2015 14:31:15 UTC] PHP Stack trace:
 [27-Sep-2015 14:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_1/update_story.php:0
 [27-Sep-2015 14:31:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/project_1/update_story.php:48
+[27-Sep-2015 14:46:50 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/php-course-work/project_1/update_story.php on line 65
+[27-Sep-2015 14:46:50 UTC] PHP Stack trace:
+[27-Sep-2015 14:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_1/update_story.php:0

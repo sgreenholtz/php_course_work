@@ -45,7 +45,8 @@
                     $insert_query = "INSERT INTO story (noun,verb,adjective," .
                         "adverb) VALUES ('$noun','$verb','$adjective','$adverb')";
                     $select_query = "SELECT * FROM story ORDER BY id ASC";
-                    $result_insert = mysqli_query($dbc, $insert_query);
+                    $inserted = mysqli_query($dbc, $insert_query);
+                    $selected = mysqli_query($dbc, $select_query);
                     
                     if ((empty($noun)) || (empty($adjective)) || 
                         (empty($adverb)) || (empty($verb)))
@@ -54,13 +55,31 @@
                     }
                     else
                     {
-                        if ($result_insert)
+                        if ($inserted)
+                        { ?>
+                            <table>
+                            <?php while ($row = mysqli_fetch_assoc($selected))
+                            { ?>
+                                <tr>
+                                    <td>
+                                        Once there was a <?php $row["adjective"] .
+                                        $row["noun"] ?> from Texas who like to 
+                                        <?php $row["adverb"] . $row["verb"] 
+                                        ?> anyone passing by.
+                                    </td>
+                                </tr>
+                            <?php } ?>
+                            </table>
+                        <?php }
+                        else
                         {
-                            echo "Once there was a $adjective $noun from Texas" .
-                                " that liked to $adverb $verb anyone passing by.";
-                        }
-                    }
-                }
+                            echo "Failed to update story in the database.";
+                            
+                        } // end of else insert
+                    
+                    } // end of else enter all values
+                
+                } // end of if isset Submit
             ?>
         </div>
         
