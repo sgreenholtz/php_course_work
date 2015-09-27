@@ -41,10 +41,11 @@
                     $adverb = $_POST['adverb'];
                     $verb = $_POST['verb'];
                     
-                    $dbc = mysqli_connect("localhost", "sgreeholtz", "", "project_1");
+                    $dbc = mysqli_connect("localhost", "sgreenholtz", "", "project_1");
                     $insert_query = "INSERT INTO story (noun,verb,adjective," .
                         "adverb) VALUES ('$noun','$verb','$adjective','$adverb')";
                     $select_query = "SELECT * FROM story ORDER BY id ASC";
+                    $result_insert = mysqli_query($dbc, $insert_query);
                     
                     if ((empty($noun)) || (empty($adjective)) || 
                         (empty($adverb)) || (empty($verb)))
@@ -53,8 +54,11 @@
                     }
                     else
                     {
-                        echo "Once there was a $adjective $noun from Texas " .
-                            "that liked to $adverb $verb anyone passing by.";
+                        if ($result_insert)
+                        {
+                            echo "Once there was a $adjective $noun from Texas" .
+                                " that liked to $adverb $verb anyone passing by.";
+                        }
                     }
                 }
             ?>
