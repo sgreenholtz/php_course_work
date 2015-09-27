@@ -24,6 +24,9 @@
                 <label for="adverb">Enter an adverb: </label>
                 <input name="adverb" type="text" /><br />
                 
+                <label>Clear old stories?</label>
+                <input type="checkbox" name="clear" value="clear"/>
+                
                 <div class="submit">  
                     <input type="submit" name="Submit" />
                 </div>
@@ -71,6 +74,7 @@
                     {
                         include('story_table.php');
                     }
+                if (isset($_POST['Clear']))
                 
                 
             ?>
