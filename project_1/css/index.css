@@ -1,4 +1,45 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: TrebuchetMS, sans-serif; 
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #ADC;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;   
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: -20px;
+}   
+
 form {
-    padding-left: 200px;
-    background-color: red;
+    
+    padding: 10px; 
+    
+    
+    margin-top: 10px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: 600;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+label {
+    float: left;
+    color: #008;
+    width: 250px;  
 }
