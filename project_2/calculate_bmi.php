@@ -37,7 +37,24 @@
                     else
                     {
                         $bmi = ($weight / ($height * $height)) * 703;
-                        echo $bmi;
+                        echo "Your BMI is " . $bmi;
+
+                        if ($bmi < 18.5) : ?>
+                            <div class="message">
+                                You are underweight. You might want to consider
+                                consulting your doctor.
+                            </div>
+                        <?php elseif ($bmi < 25) : ?>
+                            <div class="message">
+                                You are at a health weight. Continue eating right
+                                and exercising regularly.
+                            </div>
+                        <?php else : ?>
+                            <div class="message">
+                                You are overweight. You might want to consider
+                                consulting your doctor.
+                            </div>
+                        <?php endif;
                     }
                 }
             ?>
@@ -45,4 +62,3 @@
 
     </body>
 </html>
-
