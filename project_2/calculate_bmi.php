@@ -18,19 +18,28 @@
                 <input type="submit" name="Submit" />
 
             </form>
+
+
+            <?php
+
+                if (isset($_POST['Submit']))
+                {
+                    $weight = $_POST['weight'];
+                    $height = $_POST['height'];
+
+                    if (($weight == 0) || ($height = 0))
+                    {
+                        echo "Please enter values for height and weight.";
+                    }
+                    else
+                    {
+                        $bmi = ($weight / ($height * $height)) * 703;
+                        echo $bmi;
+                    }
+                }
+            ?>
         </div>
 
-        <?php
-
-            if (isset($_POST['Submit']))
-            {
-                $weight = $_POST['weight'];
-                $height = $_POST['height'];
-
-                $bmi = ($weight / ($height * $height)) * 703;
-                echo $bmi;
-            }
-        ?>
     </body>
 </html>
 
