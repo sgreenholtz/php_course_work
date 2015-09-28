@@ -37,7 +37,7 @@
                     else
                     {
                         $bmi = ($weight / ($height * $height)) * 703;
-                        echo "Your BMI is " . $bmi;
+                        echo "Your BMI is " . round($bmi, 2);
 
                         if ($bmi < 18.5) : ?>
                             <div class="message">
