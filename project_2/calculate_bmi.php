@@ -6,7 +6,11 @@
 
     <body>
 
+        <form method="post" action="<?php $_SERVER['PHP SELF'] ?>">
 
+
+
+        </form>
 
     </body>
 </html>
