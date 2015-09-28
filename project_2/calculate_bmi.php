@@ -19,6 +19,9 @@
 
             </form>
 
+            <div class="line">
+                <hr />
+            </div>
 
             <?php
 
@@ -27,7 +30,7 @@
                     $weight = $_POST['weight'];
                     $height = $_POST['height'];
 
-                    if (($weight == 0) || ($height = 0))
+                    if (($weight == 0) || ($height == 0))
                     {
                         echo "Please enter values for height and weight.";
                     }

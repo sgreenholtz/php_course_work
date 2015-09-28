@@ -20,3 +20,9 @@
 [28-Sep-2015 23:27:04 UTC] PHP Stack trace:
 [28-Sep-2015 23:27:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php:0
 [28-Sep-2015 23:28:29 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php on line 30
+[28-Sep-2015 23:31:07 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php on line 39
+[28-Sep-2015 23:31:07 UTC] PHP Stack trace:
+[28-Sep-2015 23:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php:0
+[28-Sep-2015 23:31:16 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php on line 39
+[28-Sep-2015 23:31:16 UTC] PHP Stack trace:
+[28-Sep-2015 23:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_2/calculate_bmi.php:0
