@@ -11,9 +11,11 @@
 
     <?php
     require_once('connectvars.php');
+    require_once('appvars.php');
 
     if (isset($_GET['id']) && isset($_GET['name']) &&
-        isset($_GET['date']) && isset($score = $_GET['score']))
+        isset($_GET['date']) && isset($_GET['score']) &&
+        isset($_GET['screenshot']))
     {
         $id = $_GET['id'];
         $name = $_GET['name'];
@@ -21,14 +23,32 @@
         $score = $_GET['score'];
     }
     else if (isset($_POST['id']) && isset($_POST['name']) &&
-            isset($_POST['date']) && isset($score = $_POST['score']))
+            isset($_POST['date']) && isset($_POST['score']))
     {
         $id = $_POST['id'];
         $name = $_POST['name'];
-        $date = $_POST['date'];
         $score = $_POST['score'];
     }
-    echo 'Are you sure you want to delete this high score?'
+
+    echo 'Are you sure you want to delete this high score?';
+
+    if (isset($_POST['Submit']))
+        {
+            if ($_POST['remove'] == 'yes')
+            {
+                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
+                $query = "DELETE FROM uploads WHERE id = '$id'";
+
+                if (mysqli_query($dbc, $query))
+                {
+                    echo 'Successfully deleted';
+                }
+                else
+                {
+                    echo 'Error attempting to delete';
+                }
+            } // end of if remove yes
+        } // end of if submitted
 
     ?>
     <table>
@@ -52,28 +72,6 @@
         <br />
         <input type="Submit" value="Submit" />
     </form>
-
-    <?php
-        if (isset($_POST['Submit']))
-        {
-            echo 'Successful submit';
-            /* if ($_POST['remove'] == 'yes')
-            {
-                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
-                $query = "DELETE FROM uploads WHERE id = '$id'";
-
-                if (mysqli_query($dbc, $query))
-                {
-                    echo 'Successfully deleted';
-                }
-                else
-                {
-                    echo 'Error attempting to delete';
-                }
-            } end of if remove yes */
-        } // end of if submitted
-
-    ?>
 
 </body>
 </html>

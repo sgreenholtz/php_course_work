@@ -196,3 +196,6 @@
 [03-Oct-2015 22:01:31 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 16
 [03-Oct-2015 22:01:57 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 16
 [03-Oct-2015 22:02:17 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 23
+[03-Oct-2015 22:07:16 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 17
+[03-Oct-2015 22:09:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 17
+[03-Oct-2015 22:11:11 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/php-course-work/lab_5/removescore.php on line 26
