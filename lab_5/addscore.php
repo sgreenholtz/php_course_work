@@ -10,8 +10,7 @@
   <h2>Guitar Wars - Add Your High Score</h2>
 
 <?php
-// Define upload path and maximum file size constants
-define('GW_UPLOADPATH', 'images/');
+
 
 if (isset($_POST['submit']))
   {
@@ -24,6 +23,7 @@ if (isset($_POST['submit']))
     {
       // Move the uploaded image to the images file
       $target = GW_UPLOADPATH . $screenshot;
+      
       if (move_uploaded_file($_FILES['screenshot']['tmp_name'], $target))
       {
         // Connect to the database
