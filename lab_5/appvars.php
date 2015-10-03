@@ -1,7 +1,7 @@
 <?php
 
     // Define upload path and maximum file size constants
-    define('GW_UPLOADPATH', 'images/');
+    define("GW_UPLOADPATH", "images/");
 
     // Define database connection variables
     define('DB_HOST', 'localhost');
