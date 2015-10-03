@@ -20,8 +20,14 @@
         $date = $_GET['date'];
         $score = $_GET['score'];
     }
-    else if (isset($_GET['id']) && isset($_GET['name']) &&
-            isset($_GET['date']) && isset($score = $_GET['score']))
+    else if (isset($_POST['id']) && isset($_POST['name']) &&
+            isset($_POST['date']) && isset($score = $_POST['score']))
+    {
+        $id = $_POST['id'];
+        $name = $_POST['name'];
+        $date = $_POST['date'];
+        $score = $_POST['score'];
+    }
     echo 'Are you sure you want to delete this high score?'
 
     ?>
