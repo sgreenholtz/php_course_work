@@ -12,3 +12,10 @@
   vertical-align: top;
   padding-right:15px;
 }
+
+.topscore {
+  text-align: center;
+  font-size: 200%;
+  background-color: #36407F;
+  color: #FFFFFF;
+}

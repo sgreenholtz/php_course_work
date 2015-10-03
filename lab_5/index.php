@@ -13,6 +13,7 @@
 
 <?php
   require_once('appvars.php');
+  require_once('connectvars.php');
 
 
   // Connect to the database
@@ -20,13 +21,22 @@
     or die('Error connecting to the database.');
 
   // Retrieve the score data from MySQL
-  $query = "SELECT * FROM uploads";
+  $query = "SELECT * FROM uploads ORDER BY score DESC";
   $data = mysqli_query($dbc, $query);
 
   // Loop through the array of score data, formatting it as HTML
   echo '<table>';
+  $counter = 0;
+
   while ($row = mysqli_fetch_array($data))
   {
+    // Highlight top score
+    if ($counter == 0)
+    {
+      echo '<tr><td colspan="2" class="topscore">Top Score: ' .
+        $row['score'] . '</td></tr>';
+    }
+
     // Display the score data
     echo '<tr><td class="scoreinfo">';
     echo '<span class="score">' . $row['score'] . '</span><br />';
@@ -46,6 +56,7 @@
         'unverified.gif" alt="Unverified score" /></td></tr>';
     }
 
+    $counter += 1;
   }
   echo '</table>';
 
