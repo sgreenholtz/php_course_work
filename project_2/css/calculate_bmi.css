@@ -8,7 +8,7 @@ body {
     width: 700px;
 }
 
-h2 {
+h1 {
     margin-left: 10px;
 }
 
@@ -38,6 +38,17 @@ label {
     width: 430px;
 }
 
-.error {
+.error, .weight {
     color: red;
+    font-weight: 600;
+}
+
+.message {
+    color: #008;
+    font-weight: 600;
+}
+
+.entered {
+    color: green;
+    font-weight: 600;
 }
