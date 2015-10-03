@@ -13,6 +13,7 @@
 
 <?php
   require_once('appvars.php');
+  $upload_path = 'images/';
 
   // Connect to the database
   $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME)
@@ -30,8 +31,11 @@
     echo '<tr><td class="scoreinfo">';
     echo '<span class="score">' . $row['score'] . '</span><br />';
     echo '<strong>Name:</strong> ' . $row['name'] . '<br />';
-    echo '<strong>Date:</strong> ' . $row['date'] . '</td></tr>';
+    echo '<strong>Date:</strong> ' . $row['date'] . '</td>';
+    echo '<td><img src="' . $upload_path . $row['screenshot'] . '" alt="Image" /></td></tr>';
 
+
+  /*
     if (is_file(GW_FILEPATH . $row['screenshot']) &&
       filesize(GW_FILEPATH . $row['screenshot']) > 0)
     {
@@ -44,6 +48,7 @@
       echo '<td><img src="' . GW_FILEPATH .
         'unverified.gif" alt="Unverified score" /></td></tr>';
     }
+    */
   }
   echo '</table>';
 
