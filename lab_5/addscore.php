@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Guitar Wars - Add Your High Score</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
   <h2>Guitar Wars - Add Your High Score</h2>
@@ -17,10 +17,10 @@
 
     if (!empty($name) && !empty($score)) {
       // Connect to the database
-      $dbc = mysqli_connect('www.guitarwars.net', 'admin', 'rockit', 'gwdb');
+      $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'guitarwars');
 
       // Write the data to the database
-      $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', '$score')";
+      $query = "INSERT INTO uploads VALUES (0, NOW(), '$name', '$score')";
       mysqli_query($dbc, $query);
 
       // Confirm success with the user
@@ -50,5 +50,5 @@
     <hr />
     <input type="submit" value="Add" name="submit" />
   </form>
-</body> 
+</body>
 </html>
