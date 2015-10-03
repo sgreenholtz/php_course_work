@@ -72,3 +72,31 @@
 [03-Oct-2015 19:06:43 UTC] PHP Stack trace:
 [03-Oct-2015 19:06:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
 [03-Oct-2015 19:06:43 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_5/index.php:49
+[03-Oct-2015 19:07:51 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 18
+[03-Oct-2015 19:07:51 UTC] PHP Stack trace:
+[03-Oct-2015 19:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:07:51 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_5/index.php:18
+[03-Oct-2015 19:07:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 18
+[03-Oct-2015 19:07:51 UTC] PHP Stack trace:
+[03-Oct-2015 19:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:07:51 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_5/index.php:18
+[03-Oct-2015 19:07:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 22
+[03-Oct-2015 19:07:51 UTC] PHP Stack trace:
+[03-Oct-2015 19:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:07:51 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_5/index.php:22
+[03-Oct-2015 19:07:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 26
+[03-Oct-2015 19:07:51 UTC] PHP Stack trace:
+[03-Oct-2015 19:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:07:51 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_5/index.php:26
+[03-Oct-2015 19:07:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 49
+[03-Oct-2015 19:07:51 UTC] PHP Stack trace:
+[03-Oct-2015 19:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:07:51 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_5/index.php:49
+[03-Oct-2015 19:08:28 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 18
+[03-Oct-2015 19:08:28 UTC] PHP Stack trace:
+[03-Oct-2015 19:08:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:08:28 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_5/index.php:18
+[03-Oct-2015 19:08:28 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php-course-work/lab_5/index.php on line 18
+[03-Oct-2015 19:08:28 UTC] PHP Stack trace:
+[03-Oct-2015 19:08:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/index.php:0
+[03-Oct-2015 19:08:28 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_5/index.php:18

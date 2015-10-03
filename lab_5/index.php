@@ -15,7 +15,8 @@
   require_once('appvars.php');
 
   // Connect to the database
-  $dbc = mysqli_connect('DB_HOST', 'DB_USERNAME', 'DB_PW', 'DB_NAME');
+  $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME)
+    or die('Error connecting to the database.');
 
   // Retrieve the score data from MySQL
   $query = "SELECT * FROM uploads";
