@@ -12,7 +12,7 @@
   <hr />
 
 <?php
-  require_once(appvars.php);
+  require_once('appvars.php');
 
   // Connect to the database
   $dbc = mysqli_connect('DB_HOST', 'DB_USERNAME', 'DB_PW', 'DB_NAME');
@@ -31,13 +31,17 @@
     echo '<strong>Name:</strong> ' . $row['name'] . '<br />';
     echo '<strong>Date:</strong> ' . $row['date'] . '</td></tr>';
 
-    if (is_file($row['screenshot']) && filesize($row['screenshot']) > 0)
+    if (is_file(GW_FILEPATH . $row['screenshot']) &&
+      filesize(GW_FILEPATH . $row['screenshot']) > 0)
     {
-      echo '<td><img src="' . $row['screenshot'] . '" alt="Score image" /></td></tr>';
+      echo '<td><img src="' . GW_FILEPATH . $row['screenshot'] .
+        '" alt="Score image" /></td></tr>';
     }
+
     else
     {
-      echo '<td><img src="unverified.gif" alt="Unverified score" /></td></tr>';
+      echo '<td><img src="' . GW_FILEPATH .
+        'unverified.gif" alt="Unverified score" /></td></tr>';
     }
   }
   echo '</table>';
