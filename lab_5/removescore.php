@@ -33,29 +33,30 @@
     echo 'Are you sure you want to delete this high score?';
 
     if (isset($_POST['Submit']))
+    {
+        if ($_POST['remove'] == 'yes')
         {
-            if ($_POST['remove'] == 'yes')
-            {
-                // Delete screenshot from images folder
-                @unlink(GW_UPLOADPATH . $screenshot);
+            // Delete screenshot from images folder
+            @unlink(GW_UPLOADPATH . $screenshot);
 
-                // Connect to database
-                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
+            // Connect to database
+            $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
 
-                // Query to delete the specified entry
-                $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
-                mysqli_query($dbc, $query);
-                mysqli_close($dbc);
+            // Query to delete the specified entry
+            $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
+            mysqli_query($dbc, $query);
+            mysqli_close($dbc);
 
-                echo "<p>Removed " . $name . "score " . $score . "</p>";
+            echo "<p>Removed " . $name . "score " . $score . "</p>";
 
-            } // end of if remove yes
-            else
-            {
-                echo "Error deleting score.";
-            }
-        } // end of if submitted
-
+        } // end of if remove yes
+        else
+        {
+            echo "Error deleting score.";
+        }
+    } // end of if submitted
+    else
+    {
     ?>
     <table>
         <tr>
@@ -81,6 +82,10 @@
         <br />
         <input type="Submit" value="Submit" />
     </form>
+
+    <?php
+    }
+    ?>
     <p><a href="admin.php">&lt;&lt; Back to admin page</a></p>
 </body>
 </html>
