@@ -12,8 +12,10 @@
   <hr />
 
 <?php
+  require_once(appvars.php);
+
   // Connect to the database
-  $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'guitarwars');
+  $dbc = mysqli_connect('DB_HOST', 'DB_USERNAME', 'DB_PW', 'DB_NAME');
 
   // Retrieve the score data from MySQL
   $query = "SELECT * FROM uploads";
