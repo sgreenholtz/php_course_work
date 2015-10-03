@@ -87,7 +87,7 @@
         <input type="hidden" name="score" value="<?= $score; ?>" />
 
         <br />
-        <input type="Submit" value="Submit" />
+        <input type="Submit" value="Submit" name="Submit" />
     </form>
 
     <?php
