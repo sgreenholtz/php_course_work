@@ -12,10 +12,16 @@
     <?php
     require_once('connectvars.php');
 
-    $name = $_GET['name'];
-    $date = $_GET['date'];
-    $score = $_GET['score'];
-
+    if (isset($_GET['id']) && isset($_GET['name']) &&
+        isset($_GET['date']) && isset($score = $_GET['score']))
+    {
+        $id = $_GET['id'];
+        $name = $_GET['name'];
+        $date = $_GET['date'];
+        $score = $_GET['score'];
+    }
+    else if (isset($_GET['id']) && isset($_GET['name']) &&
+            isset($_GET['date']) && isset($score = $_GET['score']))
     echo 'Are you sure you want to delete this high score?'
 
     ?>
@@ -35,11 +41,33 @@
     </table>
 
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"/>
-        <label for="remove">Remove?</label>
-        <input type="radio" id="remove">
-
+        <input type="radio" name="remove" value="yes" /> Yes
+        <input type="radio" name="remove" value="no" checked /> No
+        <br />
         <input type="Submit" value="Submit" />
     </form>
+
+    <?php
+        if (isset($_POST['Submit']))
+        {
+            echo 'Successful submit';
+            /* if ($_POST['remove'] == 'yes')
+            {
+                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
+                $query = "DELETE FROM uploads WHERE id = '$id'";
+
+                if (mysqli_query($dbc, $query))
+                {
+                    echo 'Successfully deleted';
+                }
+                else
+                {
+                    echo 'Error attempting to delete';
+                }
+            } end of if remove yes */
+        } // end of if submitted
+
+    ?>
 
 </body>
 </html>
