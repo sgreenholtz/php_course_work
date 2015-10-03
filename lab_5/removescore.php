@@ -36,18 +36,24 @@
         {
             if ($_POST['remove'] == 'yes')
             {
-                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
-                $query = "DELETE FROM uploads WHERE id = '$id'";
+                // Delete screenshot from images folder
+                @unlink(GW_UPLOADPATH . $screenshot);
 
-                if (mysqli_query($dbc, $query))
-                {
-                    echo 'Successfully deleted';
-                }
-                else
-                {
-                    echo 'Error attempting to delete';
-                }
+                // Connect to database
+                $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
+
+                // Query to delete the specified entry
+                $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
+                mysqli_query($dbc, $query);
+                mysqli_close($dbc);
+
+                echo "<p>Removed " . $name . "score " . $score . "</p>";
+
             } // end of if remove yes
+            else
+            {
+                echo "Error deleting score.";
+            }
         } // end of if submitted
 
     ?>
@@ -68,10 +74,13 @@
 
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"/>
         <input type="radio" name="remove" value="yes" /> Yes
-        <input type="radio" name="remove" value="no" checked /> No
+        <input type="radio" name="remove" value="no" checked="checked" /> No
+        <input type="hidden" name="id" value="<?= $id ?>" />
+        <input type="hidden" name="name" value="<?= $name ?>" />
+        <input type="hidden" name="score" value="<?= $score ?>" />
         <br />
         <input type="Submit" value="Submit" />
     </form>
-
+    <p><a href="admin.php">&lt;&lt; Back to admin page</a></p>
 </body>
 </html>
