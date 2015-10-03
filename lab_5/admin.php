@@ -16,22 +16,24 @@ $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME)
     or die('Error connecting to the database');
 
 $remove_query = "DELETE FROM uploads WHERE screenshot is NULL";
-$remove_result = mysqli_query($dbc, $remove_query);
+//$remove_result = mysqli_query($dbc, $remove_query);
 
-$select_query = "SELECT * FROM uploads WHERE screenshot is NULL";
+$select_query = "SELECT * FROM uploads WHERE screenshot IS NULL";
 $select_result = mysqli_query($dbc, $select_query);
+
 
 echo '<table>';
 
 while ($row = mysqli_fetch_array($select_result))
 {
-    echo '<tr><td>';
-    echo 'Score: '. $row['score'] . '<br />';
-    echo 'Name:</strong> ' . $row['name'] . '<br />';
-    echo 'Date:</strong> ' . $row['date'] . '</td></tr>';
+    echo '<tr>';
+    echo '<td>Score: '. $row['score'] . '</td>';
+    echo '<td>Name: ' . $row['name'] . '<td>';
+    echo '<td>Date: ' . $row['date'] . '</td>';
 }
 
 echo '</table>';
+
 
 mysqli_close($dbc);
 ?>

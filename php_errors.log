@@ -189,3 +189,6 @@
 [03-Oct-2015 20:39:44 UTC] PHP Stack trace:
 [03-Oct-2015 20:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/admin.php:0
 [03-Oct-2015 20:39:44 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_5/admin.php:25
+[03-Oct-2015 20:46:15 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/php-course-work/lab_5/admin.php on line 24
+[03-Oct-2015 20:46:15 UTC] PHP Stack trace:
+[03-Oct-2015 20:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_5/admin.php:0
