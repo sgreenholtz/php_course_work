@@ -21,6 +21,25 @@
         $name = $_GET['name'];
         $date = $_GET['date'];
         $score = $_GET['score'];
+
+    ?>
+        <p>Are you sure you want to delete this high score?</p>
+        <table>
+            <tr>
+                <td><strong>Name: </strong></td>
+                <td><?= $name ?></td>
+            </tr>
+            <tr>
+                <td><strong>Date: </strong></td>
+                <td><?= $date ?></td>
+            </tr>
+            <tr>
+                <td><strong>Score: </strong></td>
+                <td><?= $score ?></td>
+            </tr>
+        </table>
+
+    <?php
     }
     else if (isset($_POST['id']) && isset($_POST['name']) &&
             isset($_POST['date']) && isset($_POST['score']))
@@ -30,12 +49,11 @@
         $score = $_POST['score'];
     }
 
-    echo 'Are you sure you want to delete this high score?';
-
     if (isset($_POST['Submit']))
     {
-        if ($_POST['remove'] == 'yes')
+        if ($_POST['remove'] == "yes")
         {
+            /*
             // Delete screenshot from images folder
             @unlink(GW_UPLOADPATH . $screenshot);
 
@@ -46,39 +64,28 @@
             $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
             mysqli_query($dbc, $query);
             mysqli_close($dbc);
-
-            echo "<p>Removed " . $name . "score " . $score . "</p>";
+            */
+            echo "<p>Removed: " . $name . "<br /> Score: " . $score . "</p>";
 
         } // end of if remove yes
         else
         {
-            echo "Error deleting score.";
+            echo "<p class='error'>Error deleting score.</p>";
         }
     } // end of if submitted
+
     else
     {
     ?>
-    <table>
-        <tr>
-            <td><strong>Name: </strong></td>
-            <td><?= $name ?></td>
-        </tr>
-        <tr>
-            <td><strong>Date: </strong></td>
-            <td><?= $date ?></td>
-        </tr>
-        <tr>
-            <td><strong>Score: </strong></td>
-            <td><?= $score ?></td>
-        </tr>
-    </table>
 
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"/>
+    <form method="post" action="removescore.php"/>
         <input type="radio" name="remove" value="yes" /> Yes
         <input type="radio" name="remove" value="no" checked="checked" /> No
-        <input type="hidden" name="id" value="<?= $id ?>" />
-        <input type="hidden" name="name" value="<?= $name ?>" />
-        <input type="hidden" name="score" value="<?= $score ?>" />
+
+        <input type="hidden" name="id" value="<?= $id; ?>" />
+        <input type="hidden" name="name" value="<?= $name; ?>" />
+        <input type="hidden" name="score" value="<?= $score; ?>" />
+
         <br />
         <input type="Submit" value="Submit" />
     </form>
@@ -86,6 +93,7 @@
     <?php
     }
     ?>
+
     <p><a href="admin.php">&lt;&lt; Back to admin page</a></p>
 </body>
 </html>
