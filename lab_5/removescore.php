@@ -42,7 +42,7 @@
     <?php
     }
     else if (isset($_POST['id']) && isset($_POST['name']) &&
-            isset($_POST['date']) && isset($_POST['score']))
+            isset($_POST['score']))
     {
         $id = $_POST['id'];
         $name = $_POST['name'];
@@ -53,7 +53,6 @@
     {
         if ($_POST['remove'] == "yes")
         {
-            /*
             // Delete screenshot from images folder
             @unlink(GW_UPLOADPATH . $screenshot);
 
@@ -64,7 +63,7 @@
             $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
             mysqli_query($dbc, $query);
             mysqli_close($dbc);
-            */
+
             echo "<p>Removed: " . $name . "<br /> Score: " . $score . "</p>";
 
         } // end of if remove yes
