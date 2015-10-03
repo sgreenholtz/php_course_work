@@ -10,17 +10,20 @@
   <h2>Guitar Wars - Add Your High Score</h2>
 
 <?php
-  if (isset($_POST['submit'])) {
+  if (isset($_POST['submit']))
+  {
     // Grab the score data from the POST
     $name = $_POST['name'];
     $score = $_POST['score'];
+    $screenshot = $_FILES['screenshot']['name'];
 
-    if (!empty($name) && !empty($score)) {
+    if (!empty($name) && !empty($score) && !empty($screenshot))
+    {
       // Connect to the database
       $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'guitarwars');
 
       // Write the data to the database
-      $query = "INSERT INTO uploads VALUES (0, NOW(), '$name', '$score')";
+      $query = "INSERT INTO uploads VALUES (0, NOW(), '$name', '$score', '$screenshot')";
       mysqli_query($dbc, $query);
 
       // Confirm success with the user
@@ -32,6 +35,7 @@
       // Clear the score data to clear the form
       $name = "";
       $score = "";
+      $screenshot = "";
 
       mysqli_close($dbc);
     }
@@ -42,11 +46,15 @@
 ?>
 
   <hr />
-  <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+  <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <input type="hidden" name="MAX_FILE_SIZE" value="32768" />
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" value="<?php if (!empty($name)) echo $name; ?>" /><br />
     <label for="score">Score:</label>
     <input type="text" id="score" name="score" value="<?php if (!empty($score)) echo $score; ?>" />
+    <br />
+    <label for="screenshot">Screenshot:</label>
+    <input type="file" id="screenshot" name="screenshot" />
     <hr />
     <input type="submit" value="Add" name="submit" />
   </form>

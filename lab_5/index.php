@@ -21,12 +21,21 @@
 
   // Loop through the array of score data, formatting it as HTML
   echo '<table>';
-  while ($row = mysqli_fetch_array($data)) {
+  while ($row = mysqli_fetch_array($data))
+  {
     // Display the score data
     echo '<tr><td class="scoreinfo">';
     echo '<span class="score">' . $row['score'] . '</span><br />';
     echo '<strong>Name:</strong> ' . $row['name'] . '<br />';
     echo '<strong>Date:</strong> ' . $row['date'] . '</td></tr>';
+    if (is_file($row['screenshot']) && filesize($row['screenshot']) > 0)
+    {
+      echo '<td><img src="' . $row['screenshot'] . '" alt="Score image" /></td></tr>';
+    }
+    else
+    {
+      echo '<td><img src="unverified.gif" alt="Unverified score" /></td></tr>';
+    }
   }
   echo '</table>';
 
