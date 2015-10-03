@@ -27,12 +27,12 @@ if (isset($_POST['submit']))
         // Move the uploaded image to the images file
         $target = GW_UPLOADPATH . $screenshot;
 
-        if ($image_size < GW_FILESIZE)
+        if ($image_size > 0 && $image_size < GW_FILESIZE)
         {
             if (!($image_type == 'image/gif' || $image_type == 'image/jpeg' ||
               $image_type == 'image/pjpeg' || $image_type == 'image/png'))
             {
-                echo '<p class="error">Please enter a valid image type.</p>';
+                echo '<p class="error">Please choose a valid image file.</p>';
             } // end of if file type validation
             else
             {
@@ -70,7 +70,7 @@ if (isset($_POST['submit']))
         } // end of if file size
         else
         {
-            echo '<p class="error">Please upload an image less than 32 KB.</p>';
+            echo '<p class="error">Please choose an image less than 32 KB.</p>';
         } // end of else file size
 
     } // end of if empty
