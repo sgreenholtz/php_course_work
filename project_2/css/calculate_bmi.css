@@ -1,0 +1,54 @@
+body {
+    font-family: TrebuchetMS, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+form {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+label {
+    float: left;
+    width: 250px;
+    color: #008;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.line {
+    width: 430px;
+}
+
+.error, .weight {
+    color: red;
+    font-weight: 600;
+}
+
+.message {
+    color: #008;
+    font-weight: 600;
+}
+
+.entered {
+    color: green;
+    font-weight: 600;
+}
