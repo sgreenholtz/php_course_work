@@ -2,7 +2,7 @@
     include('header.php');
 ?>
 
-<h2>Add a New Post</h2>
+<h1>Add a New Post</h1>
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 
@@ -19,6 +19,6 @@
 <?php
 
     // form submission - add to the database
-
+    
     include('footer.php');
 ?>
