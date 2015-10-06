@@ -16,6 +16,7 @@
 	padding: 0;
 }
 
+
 a {
 	color: #1495ff;
 	text-decoration: underline;
@@ -77,17 +78,17 @@ ul {
 	background: url('images/shadow.png') top left repeat-x;
 }
 
-#banner {
+.banner {
 	background: #fff;
 }
 
-#box1 {
+.box1 {
 	width: 745px;
 	overflow: hidden;
 	margin: 0 0 35px 0;
 }
 
-#box2 {
+.box2 {
 	width: 355px;
 	overflow: hidden;
 	float: left;
