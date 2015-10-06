@@ -1,12 +1,11 @@
 <?php
     include('header.php');
 ?>
-<div class="banner">
-    <h1>Content demo.</h1>
-</div>
 
-<div class="box2">
-    Content demo.
+<header><h1>Header Test</h1></header>
+
+<div class="content">
+    <p>Content Div Test</p>
 </div>
 
 <?php
