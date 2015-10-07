@@ -8,5 +8,3 @@
     </head>
 
 <body>
-
-<div class="content">

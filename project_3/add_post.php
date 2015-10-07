@@ -15,6 +15,8 @@
         <h1>Add a New Post</h1>
     </header>
 
+    <?php include_once('navigation.php') ?>
+
     <div class="content">
 
     <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
