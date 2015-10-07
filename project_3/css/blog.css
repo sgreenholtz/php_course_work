@@ -1,6 +1,6 @@
 
 body {
-	font: 62.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	font: 62.5%/1.6em "Trebuchet MS", verdana, geneva, sans-serif;
 	color:#666;
 	margin:0;
 	border-top:2px solid #8BC159;
@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-	font-family:"Times New Roman", Times, serif;
-	font-size:3.8em;
+	font-family: "Trebuchet MS";
+	font-size:6em;
 	font-weight:normal;
 	color:#333;
 	letter-spacing:-1px;
@@ -37,23 +37,11 @@ header {
 	border-top:20px solid #BCE77C;
 }
 
-header .description {
-	float:right;
-	margin:45px 0 0 0;
-	color:#222;
-}
-
 header h1 {
 	margin:15px 0 0 0;
 	padding:25px 25px 40px 0;
 	border-bottom:20px solid #fafafa;
 	text-align: center;
-}
-
-.wrapper {
-	width:760px;
-	margin:0 auto;
-
 }
 
 nav {
@@ -81,6 +69,7 @@ nav li a {
 	text-decoration:none;
 	display:block;
 }
+
 nav li a:hover {
 	background-color:#eee;
 	color:#333;
@@ -91,10 +80,6 @@ nav li a.active {
 	background-color:#eee;
 	color:#444;
 	text-decoration:none;
-}
-
-.clear {
-	clear:both;
 }
 
 .content {
@@ -124,7 +109,6 @@ nav li a.active {
 }
 
 .content h2 {
-	font-family:"Times New Roman", Times, serif;
 	font-size:2.8em;
 	font-weight:normal;
 	margin:15px 0;
@@ -136,56 +120,6 @@ nav li a.active {
 	color:#444;
 	text-decoration:none;
 	border:none;
-}
-
-aside {
-	width:250px;
-	float:right;
-	padding:10px 10px 30px 10px;
-	border-left:1px solid #eee;
-	border-right:1px solid #eee;
-	border-bottom:1px solid #eee;
-}
-
-aside h2 {
-	letter-spacing:2px;
-	font-size:1.4em;
-	color:#333;
-	border-bottom:1px solid #f6f6f6;
-	padding:0 0 3px 0;
-}
-
-aside ul {
-	list-style:none;
-	margin:0 0 20px 0;
-}
-
-aside li {
-	padding:3px;
-	border-bottom:1px solid #f6f6f6;
-}
-
-aside li a {
-	color:#333;
-	text-decoration:none;
-}
-
-aside input {
-	width:240px;
-	padding:5px;
-	background:#fdfdfd;
-	color:#444;
-	border:1px solid #f6f6f6;
-	font:11px Verdana;
-}
-
-aside input:focus {
-	background:#fff;
-	border:1px solid #eee;
-}
-
-aside li a:hover {
-	color:#000;
 }
 
 p.news {
@@ -242,9 +176,12 @@ a.more:hover {
 
 #postTitleContent {
 	padding: 5px;
-	width: 90%;
 }
 
 #submit {
 	padding: 5px;
+}
+
+.title {
+	width: 75%;
 }
