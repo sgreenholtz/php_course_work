@@ -1,20 +1,35 @@
-<?php
-    include('header.php');
-?>
+<!DOCTYPE html>
+<html>
 
-<h1>Add a New Post</h1>
+    <head>
+        <title>Sebastian's Blog</title>
 
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+        <link href="css/blog.css" rel="stylesheet" />
+        <script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+        <script>tinymce.init({selector:'textarea'});</script>
+    </head>
 
-    <!--Set the title-->
-    <input type="text" name="title" /><br />
+    <body>
 
-    <!--Write the post-->
-    <input type="textarea" name="blogpost"/><br />
+    <header>
+        <h1>Add a New Post</h1>
+    </header>
 
-    <!--Submit-->
-    <input type="submit" value="Submit" name="Submit" />
-</form>
+    <div class="content">
+
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
+
+        <!--Set the title-->
+        <label for="title"><h2 id="postTitleLabel">Title: </label>
+        <input type="text" name="title" id="postTitleContent" /><br /></h2>
+
+        <!--Write the post-->
+        <textarea name="blogpost" for="blogform">Enter blog post here.</textarea>
+
+
+        <!--Submit-->
+        <input type="submit" value="Submit" name="Submit" />
+    </form>
 
 <?php
 

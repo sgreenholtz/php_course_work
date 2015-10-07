@@ -232,3 +232,11 @@ a.more {
 a.more:hover {
 	text-decoration:underline;
 }
+
+#postTitleLabel {
+	size: 2em;
+}
+
+#postTitleContent {
+	
+}
