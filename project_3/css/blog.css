@@ -96,11 +96,12 @@ nav li a.active {
 }
 
 .content {
-	margin:0 275px 0 0 !important;
-	margin:0 277px 0 0;
+	margin-left: auto;
+	margin-right: auto;
 	border-right:1px solid #eee;
 	border-left:1px solid #eee;
 	padding:10px 25px 30px 25px;
+	width: 75%;
 }
 
 .content p {
@@ -238,5 +239,10 @@ a.more:hover {
 }
 
 #postTitleContent {
-	
+	padding: 5px;
+	width: 90%;
+}
+
+#submit {
+	padding: 5px;
 }

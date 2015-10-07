@@ -21,14 +21,16 @@
 
         <!--Set the title-->
         <label for="title"><h2 id="postTitleLabel">Title: </label>
-        <input type="text" name="title" id="postTitleContent" /><br /></h2>
+        <input type="text" name="title" id="postTitleContent" />
+
+        <!--Submit-->
+        <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
 
         <!--Write the post-->
         <textarea name="blogpost" for="blogform">Enter blog post here.</textarea>
 
 
-        <!--Submit-->
-        <input type="submit" value="Submit" name="Submit" />
+
     </form>
 
 <?php
