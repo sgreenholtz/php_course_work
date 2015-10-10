@@ -21,7 +21,7 @@
     or die('Error connecting to the database.');
 
   // Retrieve the score data from MySQL
-  $query = "SELECT * FROM uploads ORDER BY score DESC";
+  $query = "SELECT * FROM uploads WHERE approved = 1 ORDER BY score DESC";
   $data = mysqli_query($dbc, $query);
 
   // Loop through the array of score data, formatting it as HTML

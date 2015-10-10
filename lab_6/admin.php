@@ -33,7 +33,15 @@ while ($row = mysqli_fetch_array($select_result))
     echo '<td><a href="removescore.php?id=' . $row['id'] . '&amp;date=' .
         $row['date'] . '&amp;name=' . $row['name'] . '&amp;score=' .
         $row['score'] . '&amp;screenshot=' . $row['screenshot'] .
-        '">Remove</a></td></tr>';
+        '">Remove</a></td>';
+    if ($row['approved'] == 0)
+    {
+      echo '<td><a href="approvescore.php?id=' . $row['id'] . '&amp;date=' .
+        $row['date'] . '&amp;name=' . $row['name'] . '&amp;score=' .
+        $row['score'] . '&amp;screenshot=' . $row['screenshot'] .
+        '">Approve</a></td>';
+    }
+    echo '</tr>';
 }
 
 echo '</table>';
