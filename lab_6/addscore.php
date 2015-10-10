@@ -16,9 +16,9 @@ require_once('connectvars.php');
 if (isset($_POST['submit']))
 {
     // Grab the score data from the POST
-    $name = $_POST['name'];
-    $score = $_POST['score'];
-    $screenshot = $_FILES['screenshot']['name'];
+    $name = mysqli_real_escape_string($dbc, trim($_POST['name']));
+    $score = mysqli_real_escape_string($dbc, trim($_POST['score']));
+    $screenshot = mysqli_real_escape_string($dbc, trim($_FILES['screenshot']['name']));
     $image_size = $_FILES['screenshot']['size'];
     $image_type = $_FILES['screenshot']['type'];
 
