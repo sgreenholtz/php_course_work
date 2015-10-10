@@ -176,12 +176,5 @@ a.more:hover {
 
 #postTitleContent {
 	padding: 5px;
-}
-
-#submit {
-	padding: 5px;
-}
-
-.title {
-	width: 75%;
+	width: 85%;
 }

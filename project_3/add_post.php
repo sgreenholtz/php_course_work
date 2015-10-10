@@ -1,24 +1,19 @@
 <?php include_once('header.php') ?>
 
-
-
 <div class="content">
 
     <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
 
-        <div class="title">
-            <!--Set the title-->
-            <label for="title"><h2 id="postTitleLabel">Title: </label>
-            <input type="text" name="title" id="postTitleContent" />
-
-            <!--Submit-->
-            <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
-        </div>
+        <!--Set the title-->
+        <label for="title"><h2 id="postTitleLabel">Title: </label>
+        <input type="text" name="title" id="postTitleContent" /> <br /><br />
 
         <!--Write the post-->
         <textarea name="blogpost" for="blogform">Enter blog post here.</textarea>
+        <br /><br />
 
-
+        <!--Submit-->
+        <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
 
     </form>
 
