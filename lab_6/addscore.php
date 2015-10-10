@@ -22,7 +22,8 @@ if (isset($_POST['submit']))
     $image_size = $_FILES['screenshot']['size'];
     $image_type = $_FILES['screenshot']['type'];
 
-    if (!empty($name) && !empty($score) && !empty($screenshot))
+    if (!empty($name) && !empty($score) && !empty($screenshot) &&
+        is_numeric($score))
     {
         // Move the uploaded image to the images file
         $target = GW_UPLOADPATH . $screenshot;
@@ -42,8 +43,9 @@ if (isset($_POST['submit']))
                     $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
 
                     // Write the data to the database
-                    $query = "INSERT INTO uploads VALUES (0, NOW(), '$name', '$score',
-                        '$screenshot')";
+                    $query = "INSERT INTO uploads (date, name, score, " .
+                        "screenshot) VALUES (NOW(), '$name', '$score', " .
+                        "'$screenshot')";
                     mysqli_query($dbc, $query);
 
                     // Confirm success with the user
