@@ -51,30 +51,27 @@
         $score = $_POST['score'];
     }
 
-/*
+
     if (isset($_POST['Submit']))
     {
         if ($_POST['approve'] == "yes")
         {
-            // Delete screenshot from images folder
-            @unlink(GW_UPLOADPATH . $screenshot);
-
             // Connect to database
             $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
 
-            // Query to delete the specified entry
-            $query = "DELETE FROM uploads WHERE id = $id LIMIT 1";
+            // Query to update the entry to approved
+            $query = "UPDATE uploads SET approved = 1 WHERE id = $id";
             mysqli_query($dbc, $query);
             mysqli_close($dbc);
 
-            echo "<p>Removed: " . $name . "<br /> Score: " . $score . "</p>";
+            echo "<p>Approved: " . $name . "<br /> Score: " . $score . "</p>";
 
         } // end of if remove yes
         else
         {
-            echo "<p class='error'>Error deleting score.</p>";
+            echo "<p class='error'>Error approving score.</p>";
         }
-    } *///end of if submitted
+    } //end of if submitted
 
     else
     {
