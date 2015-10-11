@@ -11,7 +11,6 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
         $title = $_GET['Title'];
         $blog_post = $_GET['BlogPost'];
         $date = $_GET['DatePosted'];
-
     ?>
     <div class="content">
         <p>Are you sure you want to delete this post?</p>
@@ -28,12 +27,12 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
 
     <?php
     }
-    else if (isset($_POST['ID']) && isset($_POST['Title']) &&
-            isset($_POST['DatePosted']))
+    else if (isset($_POST['id']) && isset($_POST['title']) &&
+            isset($_POST['date']))
     {
-        $id = $_POST['ID'];
-        $title = $_POST['Title'];
-        $date = $_POST['DatePosted'];
+        $id = $_POST['id'];
+        $title = $_POST['title'];
+        $date = $_POST['date'];
     }
 
     if (isset($_POST['Submit']))
@@ -44,8 +43,10 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
             $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
             // Query to delete the specified entry
-            $query = "DELETE FROM posts WHERE id = $id LIMIT 1";
-            mysqli_query($dbc, $query);
+            $query = "DELETE FROM posts WHERE ID = $id LIMIT 1";
+            mysqli_query($dbc, $query)
+                or die('Failed to delete: ' . $query);
+
             mysqli_close($dbc);
 
             echo "<div class='content'>";
@@ -67,9 +68,9 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
         <input type="radio" name="remove" value="yes" /> Yes
         <input type="radio" name="remove" value="no" checked="checked" /> No
 
-        <input type="hidden" name="id" value="<?= $id; ?>" />
-        <input type="hidden" name="title" value="<?= $title; ?>" />
-        <input type="hidden" name="date" value="<?= $date; ?>" />
+        <input type="hidden" name="id" value="<?= $id ?>" />
+        <input type="hidden" name="title" value="<?= $title ?>" />
+        <input type="hidden" name="date" value="<?= $date ?>" />
 
         <br />
         <input type="Submit" value="Submit" name="Submit" />
