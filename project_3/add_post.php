@@ -28,9 +28,10 @@
 
         $title = $_POST['title'];
         $entry = $_POST['blogpost'];
-        $date = date('YYYY-MM-DD');
+        $date = date('Y-m-d');
 
-        $query = "INSERT INTO posts VALUES ('$title', '$entry', '$date')";
+        $query = "INSERT INTO posts (Title, BlogPost, DatePosted) " .
+            "VALUES ('$title', '$entry', '$date')";
         $result = mysqli_query($dbc, $query)
             or die("Failed to upload your blog post.");
 
