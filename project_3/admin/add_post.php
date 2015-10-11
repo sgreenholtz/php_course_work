@@ -29,8 +29,8 @@
     {
         $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-        $title = $_POST['title'];
-        $entry = $_POST['blogpost'];
+        $title = mysqli_real_escape_string($dbc, $_POST['title']);
+        $entry = mysqli_real_escape_string($dbc, $_POST['blogpost']);
         $date = date('Y-m-d');
 
         $query = "INSERT INTO posts (Title, BlogPost, DatePosted) " .

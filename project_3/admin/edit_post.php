@@ -38,15 +38,15 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
     else if (isset($_POST['id']) && isset($_POST['title']) &&
             isset($_POST['blogpost']))
     {
+        $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
         $id = $_POST['id'];
-        $title = $_POST['title'];
-        $entry = $_POST['blogpost'];
+        $title = mysqli_real_escape_string($dbc, $_POST['title']);
+        $entry = mysqli_real_escape_string($dbc, $_POST['blogpost']);
     }
 
     if (isset($_POST['Submit']))
     {
-        $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
-
         $query = "UPDATE posts SET title='$title', blogpost='$entry'" .
             "WHERE id='$id'";
         $result = mysqli_query($dbc, $query)
