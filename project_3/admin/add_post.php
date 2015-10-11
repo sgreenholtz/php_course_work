@@ -1,4 +1,7 @@
-<?php include_once('header.php') ?>
+<?php
+    include_once('../header.php');
+    require_once('authenticate.php');
+?>
 
 <div class="content">
 
@@ -20,7 +23,7 @@
 <?php
 
     // form submission - add to the database
-    require_once('connectvars.php');
+    require_once('../connectvars.php');
 
     if (isset($_POST['Submit']))
     {
@@ -36,7 +39,7 @@
 
         if ($result)
         {
-            header('Location: index.php'); // return to main page to see the post
+            header('Location: ../index.php'); // return to main page to see the post
         }
         else
         {
@@ -47,5 +50,5 @@
 
 
 
-    include('footer.php');
+    include('../footer.php');
 ?>
