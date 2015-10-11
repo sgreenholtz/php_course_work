@@ -15,17 +15,21 @@ echo '<table>';
 
 while ($row = mysqli_fetch_array($select_result))
 {
-    echo '<tr>';
-    echo '<td><strong>' . $row['Title'] . '</strong><td>';
-    echo '<td>&nbsp;&nbsp;&nbsp;</td>'; // whitespace for reading clarity
-    echo '<td>' . $row['DatePosted'] . '</td>';
-    echo '<td><a href="delete_post.php?ID=' . $row['ID'] . '&amp;Title=' .
-        $row['Title'] . '&amp;BlogPost=' . $row['BlogPost'] . '&amp;DatePosted=' .
-        $row['DatePosted'] . '">Delete</a></td>';
-    echo '<td><a href="edit_post.php?ID=' . $row['ID'] . '&amp;Title=' .
-        $row['Title'] . '&amp;BlogPost=' . $row['BlogPost'] . '&amp;DatePosted=' .
-        $row['DatePosted'] . '">Edit</a></td>';
-    echo '</tr>';
+?>
+    <tr>
+        <td><strong><?= $row['Title'] ?></strong><td>
+        <td>&nbsp;&nbsp;&nbsp;</td> <!--whitespace for reading clarity -->
+        <td><?= $row['DatePosted'] ?></td>
+        <td>
+            <a href="delete_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            &amp;DatePosted=<?= $row['DatePosted'] ?>">Delete</a>
+        </td>
+        <td>
+            <a href="edit_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            &amp;DatePosted=<?= $row['DatePosted'] ?>">Edit</a>
+        </td>
+    </tr>
+<?php
 }
 
 echo '</table>';
