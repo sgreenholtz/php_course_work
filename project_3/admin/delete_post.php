@@ -5,11 +5,10 @@ require_once('authenticate.php');
 require_once('../connectvars.php');
 
 if (isset($_GET['ID']) && isset($_GET['Title']) &&
-        isset($_GET['BlogPost']) && isset($_GET['DatePosted']))
+    isset($_GET['DatePosted']))
     {
         $id = $_GET['ID'];
         $title = $_GET['Title'];
-        $blog_post = $_GET['BlogPost'];
         $date = $_GET['DatePosted'];
     ?>
     <div class="content">
