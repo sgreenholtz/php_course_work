@@ -14,8 +14,8 @@
 
     <div class="content">
         <h3><?= $record['Title'] ?></h3>
-        <?= $record['BlogPost'] ?> 
-        <p>Posted: <?= $record['DatePosted'] ?></p>
+        <?= $record['BlogPost'] ?>
+        <p class="date">Posted: <?= $record['DatePosted'] ?></p>
     </div>
 
     <?php } ?>

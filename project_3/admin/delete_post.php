@@ -74,13 +74,15 @@ if (isset($_GET['ID']) && isset($_GET['Title']) &&
         <br />
         <input type="Submit" value="Submit" name="Submit" />
     </form>
+    </div>
 
     <?php
     }
     ?>
 
-    <p><a href="delete_edit.php">&lt;&lt; Back to delete or edit page</a></p>
-</div>
+    <div class="content">
+        <p><a href="delete_edit.php">&lt;&lt; Back to delete or edit page</a></p>
+    </div>
 
 <?php
 require_once('../footer.php');

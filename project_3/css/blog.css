@@ -1,6 +1,7 @@
 
 body {
-	font: 62.5%/1.6em "Trebuchet MS", verdana, geneva, sans-serif;
+	font-family: "Trebuchet MS", verdana, geneva, sans-serif;
+	font-size: 1em;
 	color:#666;
 	margin:0;
 	border-top:2px solid #8BC159;
@@ -13,7 +14,7 @@ body {
 
 h1 {
 	font-family: "Trebuchet MS";
-	font-size:6em;
+	font-size:4em;
 	font-weight:normal;
 	color:#333;
 	letter-spacing:-1px;
@@ -26,11 +27,12 @@ h1 a {
 }
 
 footer {
-	padding:20px;
+	padding:30px;
 	text-align:right;
 	border-top:1px solid #eee;
 	margin:0;
 	color:#999;
+	background-color: #BCE77C;
 }
 
 header {
@@ -39,7 +41,7 @@ header {
 
 header h1 {
 	margin:15px 0 0 0;
-	padding:25px 25px 40px 0;
+	padding:15px 15px 30px 0;
 	border-bottom:20px solid #fafafa;
 	text-align: center;
 }
@@ -61,7 +63,7 @@ nav li a {
 	color:#999;
 	padding:5px 5px 7px 5px;
 	background:#fff;
-	font:1.7em Trebuchet MS;
+	font:1.2em Trebuchet MS;
 	margin:1px 2px 0 0;
 	font-weight:bold;
 	text-decoration:none;
@@ -86,14 +88,13 @@ nav li a.active {
 	border-right:1px solid #eee;
 	border-left:1px solid #eee;
 	border-top:1px solid #eee;
-	padding:10px 25px 30px 25px;
+	padding:10px 25px 10px 25px;
 	width: 75%;
 }
 
 .content p {
 	line-height:25px;
 	margin:10px 0;
-	font-size:110%;
 	word-spacing:2px;
 }
 
@@ -119,15 +120,6 @@ nav li a.active {
 	color:#444;
 	text-decoration:none;
 	border:none;
-}
-
-p.news {
-	padding:10px;
-	background:#D7F0B2;
-	margin:10px 0;
-	color:#537B17;
-	border-bottom:2px solid #BCE67D;
-	border-top:2px solid #BCE67D;
 }
 
 blockquote {
@@ -176,4 +168,12 @@ a.more:hover {
 #postTitleContent {
 	padding: 5px;
 	width: 85%;
+}
+
+table {
+	font: 150%;
+}
+
+.date {
+	font-size: 0.5em;
 }
