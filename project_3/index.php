@@ -13,8 +13,9 @@
     <?php while ($record = mysqli_fetch_assoc($result)) { ?>
 
     <div class="content">
-        <p><?= $record['Title'] ?></p>
-        <p><?= $record['BlogPost'] ?></p>
+        <h3><?= $record['Title'] ?></h3>
+        <?= $record['BlogPost'] ?> 
+        <p>Posted: <?= $record['DatePosted'] ?></p>
     </div>
 
     <?php } ?>
