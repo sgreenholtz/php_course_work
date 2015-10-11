@@ -15,20 +15,19 @@ echo '<table>';
 
 while ($row = mysqli_fetch_array($select_result))
 {
-    $post = mysqli_real_escape_string($dbc, $row['BlogPost']);
-    $title = mysqli_real_escape_string($dbc, $row['Title']);
 ?>
     <tr>
         <td><strong><?= $row['Title'] ?></strong><td>
         <td>&nbsp;&nbsp;&nbsp;</td> <!--whitespace for reading clarity -->
         <td><?= $row['DatePosted'] ?></td>
         <td>
-            <a href="delete_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $title ?>
-            &amp;BlogPost=<?= $row['BlogPost'] ?>&amp;DatePosted=<?= $row['DatePosted'] ?>">
-                Delete</a></td>
-<!--        <td><a href="edit_post.php?ID=' . $row['ID'] . '&amp;Title=' .
-        $title . '&amp;BlogPost=' . $post . '&amp;DatePosted=' .
-        $row['DatePosted'] . '">Edit</a></td>'; -->
+            <a href="delete_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            &amp;DatePosted=<?= $row['DatePosted'] ?>">Delete</a>
+        </td>
+        <td>
+            <a href="edit_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            &amp;DatePosted=<?= $row['DatePosted'] ?>">Edit</a>
+        </td>
     </tr>
 <?php
 }

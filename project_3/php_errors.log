@@ -1,0 +1,15 @@
+[11-Oct-2015 16:30:26 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php on line 30
+[11-Oct-2015 16:30:26 UTC] PHP Stack trace:
+[11-Oct-2015 16:30:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:0
+[11-Oct-2015 16:37:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php on line 44
+[11-Oct-2015 16:37:22 UTC] PHP Stack trace:
+[11-Oct-2015 16:37:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:0
+[11-Oct-2015 16:37:22 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:44
+[11-Oct-2015 16:37:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php on line 45
+[11-Oct-2015 16:37:22 UTC] PHP Stack trace:
+[11-Oct-2015 16:37:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:0
+[11-Oct-2015 16:37:22 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:45
+[11-Oct-2015 16:37:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php on line 52
+[11-Oct-2015 16:37:22 UTC] PHP Stack trace:
+[11-Oct-2015 16:37:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:0
+[11-Oct-2015 16:37:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php:52

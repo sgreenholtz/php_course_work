@@ -4,8 +4,7 @@ require_once('../header.php');
 require_once('authenticate.php');
 require_once('../connectvars.php');
 
-if (isset($_GET['ID']) && isset($_GET['Title']) &&
-    isset($_GET['DatePosted']))
+if (isset($_GET['ID']) && isset($_GET['Title']) && isset($_GET['DatePosted']))
     {
         $id = $_GET['ID'];
         $title = $_GET['Title'];
