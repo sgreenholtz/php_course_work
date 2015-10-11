@@ -1,0 +1,12 @@
+[11-Oct-2015 14:13:09 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php on line 3
+[11-Oct-2015 14:13:09 UTC] PHP Stack trace:
+[11-Oct-2015 14:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php:0
+[11-Oct-2015 14:13:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php on line 3
+[11-Oct-2015 14:13:09 UTC] PHP Stack trace:
+[11-Oct-2015 14:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php:0
+[11-Oct-2015 14:13:35 UTC] PHP Warning:  require_once(/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php on line 3
+[11-Oct-2015 14:13:35 UTC] PHP Stack trace:
+[11-Oct-2015 14:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php:0
+[11-Oct-2015 14:13:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php on line 3
+[11-Oct-2015 14:13:35 UTC] PHP Stack trace:
+[11-Oct-2015 14:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/admin.php:0

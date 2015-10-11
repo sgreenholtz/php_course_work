@@ -1,8 +1,6 @@
 <?php
 
-require_once('header.php');
-require_once('authenticate.php');
-require_once('connectvars.php');
+// required
 
 $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME)
     or die('Error connecting to the database');
@@ -38,6 +36,6 @@ echo '</table>';
 
 mysqli_close($dbc);
 
-require_once('footer.php');
+require_once('../footer.php');
 
 ?>

@@ -13,14 +13,16 @@
 
 <body>
 
+<?php define('SITE_ROOT', '/php-course-work/project_3') ?>
+
     <header>
         <h1><a href="index.php">Sebastian's Blog</a></h1>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="<?= SITE_ROOT ?>/index.php">Home</a></li>
             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-            <li><a href="add_post.php">Add A New Post</a></li>
+            <li><a href="<?= SITE_ROOT ?>/admin/admin.php">Admin</a></li>
         </ul>
     </nav>
