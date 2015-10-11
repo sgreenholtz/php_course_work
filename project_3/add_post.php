@@ -32,8 +32,16 @@
 
         $query = "INSERT INTO posts (Title, BlogPost, DatePosted) " .
             "VALUES ('$title', '$entry', '$date')";
-        $result = mysqli_query($dbc, $query)
-            or die("Failed to upload your blog post.");
+        $result = mysqli_query($dbc, $query);
+
+        if ($result)
+        {
+            eader('Location: index.php'); // return to main page to see the post
+        }
+        else
+        {
+            exit("Failed to upload blog post");
+        }
 
     } // end of if submitted
 
