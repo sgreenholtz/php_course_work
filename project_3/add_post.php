@@ -9,7 +9,7 @@
         <input type="text" name="title" id="postTitleContent" /> <br /><br />
 
         <!--Write the post-->
-        <textarea name="blogpost" for="blogform">Enter blog post here.</textarea>
+        <textarea name="blogpost" for="blogform"></textarea>
         <br /><br />
 
         <!--Submit-->
@@ -36,7 +36,7 @@
 
         if ($result)
         {
-            eader('Location: index.php'); // return to main page to see the post
+            header('Location: index.php'); // return to main page to see the post
         }
         else
         {

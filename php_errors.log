@@ -221,3 +221,22 @@
 [10-Oct-2015 18:54:10 UTC] PHP Stack trace:
 [10-Oct-2015 18:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin.php:0
 [10-Oct-2015 18:54:10 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/project_3/admin.php:7
+[11-Oct-2015 13:47:46 UTC] PHP Fatal error:  Call to undefined function eader() in /home/ubuntu/workspace/php-course-work/project_3/add_post.php on line 39
+[11-Oct-2015 13:47:46 UTC] PHP Stack trace:
+[11-Oct-2015 13:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/add_post.php:0
+[11-Oct-2015 13:52:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/project_3/index.php on line 6
+[11-Oct-2015 13:52:15 UTC] PHP Stack trace:
+[11-Oct-2015 13:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/index.php:0
+[11-Oct-2015 13:52:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/project_3/index.php:6
+[11-Oct-2015 13:52:15 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/php-course-work/project_3/index.php on line 8
+[11-Oct-2015 13:52:15 UTC] PHP Stack trace:
+[11-Oct-2015 13:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/index.php:0
+[11-Oct-2015 13:52:15 UTC] PHP   2. mysql_error() /home/ubuntu/workspace/php-course-work/project_3/index.php:8
+[11-Oct-2015 13:53:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/php-course-work/project_3/index.php on line 7
+[11-Oct-2015 13:53:25 UTC] PHP Stack trace:
+[11-Oct-2015 13:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/index.php:0
+[11-Oct-2015 13:53:25 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/project_3/index.php:7
+[11-Oct-2015 13:53:25 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/php-course-work/project_3/index.php on line 9
+[11-Oct-2015 13:53:25 UTC] PHP Stack trace:
+[11-Oct-2015 13:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/index.php:0
+[11-Oct-2015 13:53:25 UTC] PHP   2. mysql_error() /home/ubuntu/workspace/php-course-work/project_3/index.php:9
