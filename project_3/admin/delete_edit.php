@@ -22,6 +22,9 @@ while ($row = mysqli_fetch_array($select_result))
     echo '<td><a href="delete_post.php?ID=' . $row['ID'] . '&amp;Title=' .
         $row['Title'] . '&amp;BlogPost=' . $row['BlogPost'] . '&amp;DatePosted=' .
         $row['DatePosted'] . '">Delete</a></td>';
+    echo '<td><a href="edit_post.php?ID=' . $row['ID'] . '&amp;Title=' .
+        $row['Title'] . '&amp;BlogPost=' . $row['BlogPost'] . '&amp;DatePosted=' .
+        $row['DatePosted'] . '">Edit</a></td>';
     echo '</tr>';
 }
 

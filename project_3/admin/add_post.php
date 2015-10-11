@@ -8,7 +8,7 @@
     <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
 
         <!--Set the title-->
-        <label for="title"><h2 id="postTitleLabel">Title: </label>
+        <label for="title"><h3 id="postTitleLabel">Title: </label>
         <input type="text" name="title" id="postTitleContent" /> <br /><br />
 
         <!--Write the post-->

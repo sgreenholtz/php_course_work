@@ -24,3 +24,4 @@
 [11-Oct-2015 14:24:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3/admin/add_post.php on line 26
 [11-Oct-2015 14:24:45 UTC] PHP Stack trace:
 [11-Oct-2015 14:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/admin/add_post.php:0
+[11-Oct-2015 15:11:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php-course-work/project_3/admin/edit_post.php on line 36
