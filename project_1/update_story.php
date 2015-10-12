@@ -52,16 +52,10 @@
                 $inserted = mysqli_query($dbc, $insert_query);
                 $selected = mysqli_query($dbc, $select_query);
 
-                /* If Submit is hit */
                 if (isset($_POST['Submit']))
                 {
-
-                    /*
-                     If you are not trying to clear
-                    */
                     if (!isset($_POST['clear']))
                     {
-                        /* If any of the input fields are blank */
                         if ((empty($noun)) || (empty($adjective)) ||
                             (empty($adverb)) || (empty($verb)))
                         { ?>
@@ -69,46 +63,34 @@
                                 Please enter all values.
                             </div>
                         <?php }
-                        /*
-                         If fields are filled in, update and echo stories
-                        */
+
                         elseif ($inserted)
                         {
                             include('story_table.php');
                         }
                     }
 
-
-                    /*
-                     If you are trying to clear
-                    */
                     else
                     {
-                        /* If the input fields are blank, just delete stories */
                         if ((empty($noun)) && (empty($adjective)) &&
                             (empty($adverb)) && (empty($verb)))
                         {
                             include('delete_old.php');
                         }
 
-                        /* If there are values, update and delete */
                         else
                         {
                             include('story_table_clear.php');
                             include('delete_old.php');
                             mysqli_query($dbc, $insert_query)
                                 or die('Error updating database.');
-                        } // end of else if there are values and clearing
+                        }
 
-                    } // end of else if clearing
+                    }
 
 
-                } // end of if isset Submit
+                }
 
-                /*
-                 Load existing stories on first load up of page without
-                 testing for blanks in the form
-                */
                 else
                 {
                    include('story_table.php');
