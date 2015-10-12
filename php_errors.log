@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [27-Sep-2015 14:06:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/php-course-work/project_1/update_story.php on line 46
 [27-Sep-2015 14:31:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sgreeholtz'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/project_1/update_story.php on line 44
 [27-Sep-2015 14:31:15 UTC] PHP Stack trace:
@@ -254,3 +255,11 @@
 [28-Sep-2015 23:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_4/removeemail.php:0
 >>>>>>> 40073b48f1822b55ca11a08b8cdf37963133a12b
 >>>>>>> master
+=======
+[12-Sep-2015 21:40:03 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php-course-work/lab_3/addemail.php on line 6
+[12-Sep-2015 21:40:03 UTC] PHP Stack trace:
+[12-Sep-2015 21:40:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_3/addemail.php:0
+[12-Sep-2015 21:41:26 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php-course-work/lab_3/addemail.php on line 6
+[12-Sep-2015 21:41:26 UTC] PHP Stack trace:
+[12-Sep-2015 21:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_3/addemail.php:0
+>>>>>>> lab_3
