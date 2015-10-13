@@ -1,27 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<?php define('SITE_ROOT', '/php-course-work/project_3') ?>
+<!DOCTYPE html>
+<html lang="en">
+<?php define('SITE_ROOT', '/php-course-work/project_3.1') ?>
+<head>
 
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Sebastian's Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <link href="<?= SITE_ROOT ?>/css/blog.css" rel="stylesheet" />
-        <script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
-        <script>tinymce.init({selector:'textarea'});</script>
-    </head>
+    <title>Sebastian's Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
 
 <body>
 
-    <header>
-        <h1><a href="index.php">Sebastian's Blog</a></h1>
-    </header>
+    <div class="container">
+        <div class="row">
+            <h1>Sebastian's Blog</h1>
+        </div>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="<?= SITE_ROOT ?>/index.php">Home</a></li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="<?= SITE_ROOT ?>/index.php">Home</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
             <li><a href="<?= SITE_ROOT ?>/admin/admin.php">Admin</a></li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </nav>
