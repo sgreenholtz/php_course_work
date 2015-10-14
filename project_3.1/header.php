@@ -22,6 +22,10 @@
     }
     </style>
 
+    <!-- Script for Text Enter -->
+    <script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+    <script>tinymce.init({selector:'textarea'});</script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,11 +53,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?= SITE_ROOT ?>/index.php">Home</a>
+
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
+            <li><a class="navbar-brand" href="<?= SITE_ROOT ?>/index.php">Home</a></li>
             <li><a href="<?= SITE_ROOT ?>/admin/admin.php">Admin</a></li>
           </ul>
         </div>
