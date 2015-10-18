@@ -1,37 +1,41 @@
 <?php
   require_once('connectvars.php');
 
-    if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW']))
+    $error_msg = "";
+
+    if (!isset($_COOKIE['user_id']))
     {
-        header('HTTP/1.1 401 Unauthorized');
-        header('WWW-Authenticate: Basic realm="Mismatch"');
-        exit('<h3>Mismatch</h3>Sorry, you must a valid username and password ' .
-             'to log in and access this page. If you aren\'t a registered '.
-             ' member,please <a href="signup.php">sign up</a>.');
+        if (!isset($_POST['Submit']))
+        {
+            $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+            $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
+            $password = mysqli_real_escape_string($dbc, trim($_POST['password']));
+
+            if (!empty($username) && !empty($password))
+            {
+                $user_query = "SELECT user_id, username FROM mismatch_user" .
+                    "WHERE username = '$username' AND password = SHA('$password')";
+                $data = $data = mysqli_query($dbc, $query);
+
+                if (mysqli_num_rows($data) == 1)
+                {
+                    $row = mysqli_fetch_array($data);
+                    setcookie('user_id', $row['user_id']);
+                    setcookie('username', $row['username']);
+                    $home_url = 'https://' . $_SERVER['HTTP_HOST'] .
+                        dirname($_SERVER['PHP_SELF']) . '/index.php';
+                    header('Location: ' . $home_url);
+                }
+                else
+                {
+                    $error_msg = "Sorry, you must enter a valid username and " .
+                        "password to log in.";
+                }
+            }
+            else
+            {
+                $error_msg = "Please enter both username and password";
+            }
+        }
     }
-
-    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-    $user_username = mysqli_real_escape_string($dbc, trim($_SERVER['PHP_AUTH_USER']));
-    $user_password = mysqli_real_escape_string($dbc, trim($_SERVER['PHP_AUTH_PW']));
-
-    $query = "SELECT user_id, username FROM mismatch_user WHERE username = " .
-        "'$user_username' AND password = SHA('$user_password')";
-    $data = mysqli_query($dbc, $query);
-
-    if (mysqli_num_rows($data) == 1)
-    {
-        $row = mysqli_fetch_array($data);
-        $user_id = $row['user_id'];
-        $username = $row['username'];
-    }
-    else
-    {
-    header('HTTP/1.1 401 Unauthorized');
-    header('WWW-Authenticate: Basic realm="Mismatch"');
-    exit('<h3>Mismatch</h3>Sorry, you must a valid username and password ' .
-             'to log in and access this page. If you aren\'t a registered '.
-             ' member,please <a href="signup.php">sign up</a>.');
-    }
-
-  echo('<p class="login">You are logged in as ' . $username . '.</p>');
 ?>
