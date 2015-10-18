@@ -39,3 +39,36 @@
         }
     }
 ?>
+
+<html>
+    <head>
+        <title>Mismatch - Log In</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+    </head>
+
+    <body>
+        <h3>Mismatch - Log In</h3>
+
+    <?php if (empty($_COOKIE['$user_id'])) : ?>
+        <p class="error"><?= $error_msg ?></p>
+
+    <form method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
+        <fieldset>
+            <legend>Log In</legend>
+
+            <label for="username">Username:</label>
+            <input id="username" type="text" name="username" value="<?php
+                if (!empty($username)) { echo $username; } ?>" /><br />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+        </fieldset>
+        <input type="submit" name="Submit" value="Log In" />
+    </form>
+
+    <?php else : ?>
+        <p class="login">You are logged in as <?= $_COOKIE['$username']; ?></p>
+    <?php endif ?>
+    
+</body>
+</html>
