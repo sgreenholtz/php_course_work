@@ -1,6 +1,14 @@
 <?php
-    require_once('login.php');
-?>  
+  session_start();
+  if (!isset($_SESSION['user_id']))
+  {
+    if (isset($_COOKIE['user_id']) && isset($_COOKIE['username']))
+    {
+      $_SESSION['user_id'] = $_COOKIE['user_id'];
+      $_SESSION['username'] = $_COOKIE['username'];
+    }
+  }
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

@@ -311,3 +311,17 @@
 [18-Oct-2015 17:55:09 UTC] PHP Stack trace:
 [18-Oct-2015 17:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:0
 [18-Oct-2015 17:55:09 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:4
+[18-Oct-2015 18:08:06 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php on line 44
+[18-Oct-2015 18:08:06 UTC] PHP Stack trace:
+[18-Oct-2015 18:08:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:0
+[18-Oct-2015 18:08:06 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:44
+[18-Oct-2015 18:47:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 96
+[18-Oct-2015 18:48:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 95
+[18-Oct-2015 20:21:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 91
+[18-Oct-2015 20:36:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 31
+[18-Oct-2015 20:37:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 81
+[18-Oct-2015 20:37:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php-course-work/lab_7/viewprofile.php on line 121
+[18-Oct-2015 20:39:07 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php on line 44
+[18-Oct-2015 20:39:07 UTC] PHP Stack trace:
+[18-Oct-2015 20:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:0
+[18-Oct-2015 20:39:07 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:44
