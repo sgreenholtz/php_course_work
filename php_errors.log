@@ -263,3 +263,7 @@
 [12-Sep-2015 21:41:26 UTC] PHP Stack trace:
 [12-Sep-2015 21:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_3/addemail.php:0
 >>>>>>> lab_3
+[18-Oct-2015 15:24:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_7/signup.php on line 18
+[18-Oct-2015 15:24:24 UTC] PHP Stack trace:
+[18-Oct-2015 15:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:0
+[18-Oct-2015 15:24:24 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:18

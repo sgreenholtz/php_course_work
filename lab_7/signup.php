@@ -13,8 +13,41 @@
     require_once('appvars.php');
     require_once('connectvars.php');
 
+    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
+    if (isset($_POST['Submit']))
+    {
+        $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
+        $password1 = mysqli_real_escape_string($dbc, trim($_POST['password1']));
+        $password2 = mysqli_real_escape_string($dbc, trim($_POST['password2']));
+
+
+        if (!empty($username) && !empty($password1) && !empty($password2) &&
+            $password1 == $password2)
+        {
+            $unique_user_query = "SELECT * FROM mismatch_user WHERE username = " .
+                "'$username'";
+            $unique_user_result = mysqli_query($dbc, $unique_user_query);
+
+            if (mysqli_num_rows($unique_user_result) == 0)
+            {
+                $todays_date = date(Y-m-d);
+                $insert_user_query = "INSERT INTO mismatch_user " .
+                    "(username, password, join_date) VALUES ".
+                    "('$username', SHA('$password1'), NOW())";
+
+                mysqli_query($dbc, $query);
+            }
+        }
+
+    } ?>
+
+    <p>Your new account has been successfully created. You\'re now ready to log
+    in and <a href="editprofile.php">edit your profile</a>.</p>
+
+<?php
     mysqli_close($dbc);
+    exit();
 ?>
 </body>
 </html>
