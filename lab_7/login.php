@@ -5,9 +5,9 @@
     {
         header('HTTP/1.1 401 Unauthorized');
         header('WWW-Authenticate: Basic realm="Mismatch"');
-        exit('<h3>Mismatch</h3>Sorry, you must enter your username and password ' .
-             'to log in and access this page. If you aren\'t a registered member,'.
-             'please <a href="signup.php">sign up</a>.');
+        exit('<h3>Mismatch</h3>Sorry, you must a valid username and password ' .
+             'to log in and access this page. If you aren\'t a registered '.
+             ' member,please <a href="signup.php">sign up</a>.');
     }
 
     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -28,9 +28,9 @@
     {
     header('HTTP/1.1 401 Unauthorized');
     header('WWW-Authenticate: Basic realm="Mismatch"');
-    exit('<h3>Mismatch</h3>Sorry, you must enter a valid username and password ' .
-             'to access this page. If you aren\'t a registered member,'.
-             'please <a href="signup.php">sign up</a>.');
+    exit('<h3>Mismatch</h3>Sorry, you must a valid username and password ' .
+             'to log in and access this page. If you aren\'t a registered '.
+             ' member,please <a href="signup.php">sign up</a>.');
     }
 
   echo('<p class="login">You are logged in as ' . $username . '.</p>');
