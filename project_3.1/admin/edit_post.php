@@ -33,7 +33,7 @@ if (isset($_GET['ID']) && isset($_GET['Title']) && isset($_GET['DatePosted']))
                 </div>
             </div>
 
-        <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
+        <input class="btn btn-primary" type="submit" value="Submit" name="Submit" id="submit" /></h2>
 
         </fieldset>
     </form>

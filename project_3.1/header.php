@@ -12,7 +12,7 @@
     <title>Sebastian's Blog</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+    <link href="https://bootswatch.com/darkly/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <style>

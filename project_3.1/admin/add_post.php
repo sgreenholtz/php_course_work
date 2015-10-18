@@ -1,29 +1,35 @@
 <?php
     include_once('../header.php');
     require_once('authenticate.php');
+    require_once('../connectvars.php');
 ?>
 
-<div class="content">
 
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
+<div class="col-lg-12">
 
-        <!--Set the title-->
-        <label for="title"><h3 id="postTitleLabel">Title: </label>
-        <input type="text" name="title" id="postTitleContent" /> <br /><br />
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>"
+        class="form-horizontal" id="blogform">
+        <input type="hidden" name="id" />
 
-        <!--Write the post-->
-        <textarea name="blogpost" for="blogform"></textarea>
-        <br /><br />
+        <fieldset>
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <input type="text" name="title" id="title" class="form-control" placeholder="Title" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <textarea name="blogpost" for="blogform" class="form-control"></textarea>
+                </div>
+            </div>
 
-        <!--Submit-->
-        <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
+        <input class="btn btn-primary" type="submit" value="Submit" name="Submit" id="submit" /></h2>
 
+        </fieldset>
     </form>
+</div>
 
 <?php
-
-    // form submission - add to the database
-    require_once('../connectvars.php');
 
     if (isset($_POST['Submit']))
     {
@@ -40,12 +46,10 @@
 
         if ($result)
         {
-            header('Location: ../index.php'); // return to main page to see the post
+            header('Location: ../index.php');
         }
 
-    } // end of if submitted
-
-
+    }
 
     include('../footer.php');
 ?>
