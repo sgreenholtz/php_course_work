@@ -37,17 +37,51 @@
                     "('$username', SHA('$password1'), NOW())";
 
                 mysqli_query($dbc, $query);
+            ?>
+
+                <p>Your new account has been successfully created. You\'re now
+                ready to log  in and <a href="editprofile.php">edit your
+                profile</a>.</p>
+
+            <?php
+                mysqli_close($dbc);
+                exit();
+            }
+            else
+            { ?>
+                <p class="error">An account already exists for this username.
+                Please choose something else.</p>
+
+            <?php
+                $username = "";
             }
         }
-
-    } ?>
-
-    <p>Your new account has been successfully created. You\'re now ready to log
-    in and <a href="editprofile.php">edit your profile</a>.</p>
-
-<?php
+        else
+        { ?>
+            <p class="error">You must enter all of the sign-up information.</p>
+        <?php }
+    }
     mysqli_close($dbc);
-    exit();
 ?>
+
+    <p>Please enter a username and password to sign up for Mismatch.</p>
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <fieldset>
+            <legend>Registration Info</legend>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"
+                value="<?php if (!empty($username)) { echo $username; } ?>"/><br />
+
+            <label for="password1">Password:</label>
+            <input type="password" id="password1" name="password1" /><br />
+
+            <label for="password2">Password (retype):</label>
+            <input type="password" id="password2" name="password2" /><br />
+
+        </fieldset>
+    <input type="submit" name="submit" value="Submit" />
+    </form>
+
 </body>
 </html>
