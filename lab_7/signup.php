@@ -36,10 +36,10 @@
                     "(username, password, join_date) VALUES ".
                     "('$username', SHA('$password1'), NOW())";
 
-                mysqli_query($dbc, $query);
+                mysqli_query($dbc, $insert_user_query);
             ?>
 
-                <p>Your new account has been successfully created. You\'re now
+                <p>Your new account has been successfully created. You're now
                 ready to log  in and <a href="editprofile.php">edit your
                 profile</a>.</p>
 
@@ -80,7 +80,7 @@
             <input type="password" id="password2" name="password2" /><br />
 
         </fieldset>
-    <input type="submit" name="submit" value="Submit" />
+    <input type="submit" name="Submit" value="Submit" />
     </form>
 
 </body>

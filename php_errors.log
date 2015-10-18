@@ -267,3 +267,7 @@
 [18-Oct-2015 15:24:24 UTC] PHP Stack trace:
 [18-Oct-2015 15:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:0
 [18-Oct-2015 15:24:24 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:18
+[18-Oct-2015 16:25:18 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php-course-work/lab_7/signup.php on line 39
+[18-Oct-2015 16:25:18 UTC] PHP Stack trace:
+[18-Oct-2015 16:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:0
+[18-Oct-2015 16:25:18 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:39
