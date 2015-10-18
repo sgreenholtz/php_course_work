@@ -12,12 +12,16 @@
 <?php
     require_once('appvars.php');
     require_once('connectvars.php');
-?>
 
-    &#10084; <a href="viewprofile.php">View Profile</a><br />
-    &#10084; <a href="editprofile.php">Edit Profile</a><br />
+    if (isset($_COOKIE['username'])) : ?>
+        &#10084; <a href="viewprofile.php">View Profile</a><br />
+        &#10084; <a href="editprofile.php">Edit Profile</a><br />
+        &#10084; <a href="logout.php">Log Out (<?= $_COOKIE['username'] ?>)</a>
+    <?php else : ?>
+        &#10084; <a href="login.php">Log In</a><br />
+        &#10084; <a href="signup.php">Sign Up</a><br />
+    <?php endif;
 
-<?php
     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
     $query = "SELECT user_id, first_name, picture FROM mismatch_user WHERE " .
         "first_name IS NOT NULL ORDER BY join_date DESC LIMIT 5";

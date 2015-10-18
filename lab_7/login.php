@@ -1,11 +1,12 @@
 <?php
-  require_once('connectvars.php');
+    require_once('connectvars.php');
 
+    session_start();
     $error_msg = "";
 
     if (!isset($_COOKIE['user_id']))
     {
-        if (!isset($_POST['Submit']))
+        if (!isset($_POST['Log In']))
         {
             $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
             $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
@@ -13,15 +14,16 @@
 
             if (!empty($username) && !empty($password))
             {
-                $user_query = "SELECT user_id, username FROM mismatch_user" .
-                    "WHERE username = '$username' AND password = SHA('$password')";
-                $data = $data = mysqli_query($dbc, $query);
+                $user_query = "SELECT user_id, username FROM mismatch_user WHERE username = '$username' AND password = SHA('$password')";
+                $data = mysqli_query($dbc, $user_query);
 
                 if (mysqli_num_rows($data) == 1)
                 {
                     $row = mysqli_fetch_array($data);
-                    setcookie('user_id', $row['user_id']);
-                    setcookie('username', $row['username']);
+                    $_SESSION['user_id'] = $row['user_id'];
+                    $_SESSION['username'] = $row['username'];
+                    setcookie('user_id', $row['user_id'], time() + (60 * 60 * 8));
+                    setcookie('username', $row['username'], time() + (60 * 60 * 8));
                     $home_url = 'https://' . $_SERVER['HTTP_HOST'] .
                         dirname($_SERVER['PHP_SELF']) . '/index.php';
                     header('Location: ' . $home_url);
@@ -49,7 +51,7 @@
     <body>
         <h3>Mismatch - Log In</h3>
 
-    <?php if (empty($_COOKIE['$user_id'])) : ?>
+    <?php if (empty($_SESSION['user_id'])) : ?>
         <p class="error"><?= $error_msg ?></p>
 
     <form method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
@@ -68,7 +70,7 @@
 
     <?php else : ?>
         <p class="login">You are logged in as <?= $_COOKIE['$username']; ?></p>
-    <?php endif ?>
-    
+    <?php endif; ?>
+
 </body>
 </html>

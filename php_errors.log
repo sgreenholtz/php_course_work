@@ -271,3 +271,43 @@
 [18-Oct-2015 16:25:18 UTC] PHP Stack trace:
 [18-Oct-2015 16:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:0
 [18-Oct-2015 16:25:18 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_7/signup.php:39
+[18-Oct-2015 17:17:17 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 18
+[18-Oct-2015 17:17:17 UTC] PHP Stack trace:
+[18-Oct-2015 17:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:17:17 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_7/login.php:18
+[18-Oct-2015 17:17:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 20
+[18-Oct-2015 17:17:17 UTC] PHP Stack trace:
+[18-Oct-2015 17:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:17:17 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:20
+[18-Oct-2015 17:17:58 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 18
+[18-Oct-2015 17:17:58 UTC] PHP Stack trace:
+[18-Oct-2015 17:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:17:58 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_7/login.php:18
+[18-Oct-2015 17:17:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 20
+[18-Oct-2015 17:17:58 UTC] PHP Stack trace:
+[18-Oct-2015 17:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:17:58 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:20
+[18-Oct-2015 17:18:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 20
+[18-Oct-2015 17:18:30 UTC] PHP Stack trace:
+[18-Oct-2015 17:18:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:18:30 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:20
+[18-Oct-2015 17:31:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 20
+[18-Oct-2015 17:31:46 UTC] PHP Stack trace:
+[18-Oct-2015 17:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:31:46 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:20
+[18-Oct-2015 17:47:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USERNAME'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/lab_7/logout.php on line 4
+[18-Oct-2015 17:47:26 UTC] PHP Stack trace:
+[18-Oct-2015 17:47:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:0
+[18-Oct-2015 17:47:26 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:4
+[18-Oct-2015 17:51:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 21
+[18-Oct-2015 17:51:58 UTC] PHP Stack trace:
+[18-Oct-2015 17:51:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:51:58 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:21
+[18-Oct-2015 17:52:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_7/login.php on line 21
+[18-Oct-2015 17:52:03 UTC] PHP Stack trace:
+[18-Oct-2015 17:52:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/login.php:0
+[18-Oct-2015 17:52:03 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_7/login.php:21
+[18-Oct-2015 17:55:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USERNAME'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/lab_7/logout.php on line 4
+[18-Oct-2015 17:55:09 UTC] PHP Stack trace:
+[18-Oct-2015 17:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:0
+[18-Oct-2015 17:55:09 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:4
