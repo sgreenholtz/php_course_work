@@ -14,7 +14,10 @@
 
             if (!empty($username) && !empty($password))
             {
-                $user_query = "SELECT user_id, username FROM mismatch_user WHERE username = '$username' AND password = SHA('$password')";
+                $user_query = "SELECT user_id, username " .
+                              "FROM mismatch_user " .
+                              "WHERE username = '$username' " .
+                              "AND password = SHA('$password')";
                 $data = mysqli_query($dbc, $user_query);
 
                 if (mysqli_num_rows($data) == 1)
