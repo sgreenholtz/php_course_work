@@ -1,26 +1,9 @@
 <?php
-    session_start();
-
-    if (!isset($_SESSION['user_id']))
-    {
-        if (isset($_COOKIE['user_id']) && isset($_COOKIE['username']))
-        {
-            $_SESSION['user_id'] = $_COOKIE['user_id'];
-            $_SESSION['username'] = $_COOKIE['username'];
-        }
-    }
+    require_once('startsession.php');
+    $page_title = "Edit Profile";
+    require_once('header.php');
+    require_once('navigation.php');
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Mismatch - Edit Profile</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-    <h3>Mismatch - Edit Profile</h3>
 
 <?php
     require_once('appvars.php');
