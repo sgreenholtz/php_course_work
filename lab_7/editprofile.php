@@ -1,5 +1,6 @@
 <?php
   session_start();
+
   if (!isset($_SESSION['user_id']))
   {
     if (isset($_COOKIE['user_id']) && isset($_COOKIE['username']))
@@ -16,7 +17,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Mismatch - Edit Profile</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <h3>Mismatch - Edit Profile</h3>
@@ -25,12 +26,21 @@
   require_once('appvars.php');
   require_once('connectvars.php');
 
-  // Connect to the database
+
+  if (!isset($_SESSION['user_id']))
+  {
+    echo '<p class="login">Please <a href="login.php">log in</a> to access this page.</p>';
+    exit();
+  }
+  else
+  {
+    echo('<p class="login">You are logged in as ' . $_SESSION['username'] . '. <a href="logout.php">Log out</a>.</p>');
+  }
+
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
   if (isset($_POST['submit']))
   {
-    // Grab the profile data from the POST
     $first_name = mysqli_real_escape_string($dbc, trim($_POST['firstname']));
     $last_name = mysqli_real_escape_string($dbc, trim($_POST['lastname']));
     $gender = mysqli_real_escape_string($dbc, trim($_POST['gender']));
@@ -44,7 +54,6 @@
     list($new_picture_width, $new_picture_height) = getimagesize($_FILES['new_picture']['tmp_name']);
     $error = false;
 
-    // Validate and move the uploaded picture file, if necessary
     if (!empty($new_picture))
     {
       if ((($new_picture_type == 'image/gif') || ($new_picture_type == 'image/jpeg') || ($new_picture_type == 'image/pjpeg') ||
@@ -53,11 +62,9 @@
         {
         if ($_FILES['file']['error'] == 0)
         {
-          // Move the file to the target upload folder
           $target = MM_UPLOADPATH . basename($new_picture);
           if (move_uploaded_file($_FILES['new_picture']['tmp_name'], $target))
           {
-            // The new picture file move was successful, now make sure any old picture is deleted
             if (!empty($old_picture) && ($old_picture != $new_picture))
             {
               @unlink(MM_UPLOADPATH . $old_picture);
@@ -65,7 +72,6 @@
           }
           else
           {
-            // The new picture file move failed, so delete the temporary file and set the error flag
             @unlink($_FILES['new_picture']['tmp_name']);
             $error = true;
             echo '<p class="error">Sorry, there was a problem uploading your picture.</p>';
@@ -74,7 +80,6 @@
       }
       else
       {
-        // The new picture file is not valid, so delete the temporary file and set the error flag
         @unlink($_FILES['new_picture']['tmp_name']);
         $error = true;
         echo '<p class="error">Your picture must be a GIF, JPEG, or PNG image file no greater than ' . (MM_MAXFILESIZE / 1024) .
@@ -82,39 +87,42 @@
       }
     }
 
-    // Update the profile data in the database
-    if (!$error) {
-      if (!empty($first_name) && !empty($last_name) && !empty($gender) && !empty($birthdate) && !empty($city) && !empty($state)) {
-        // Only set the picture column if there is a new picture
-        if (!empty($new_picture)) {
+    if (!$error)
+    {
+      if (!empty($first_name) && !empty($last_name) && !empty($gender) && !empty($birthdate) && !empty($city) && !empty($state))
+      {
+        if (!empty($new_picture))
+        {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
-            " birthdate = '$birthdate', city = '$city', state = '$state', picture = '$new_picture' WHERE user_id = '$user_id'";
+            " birthdate = '$birthdate', city = '$city', state = '$state', picture = '$new_picture' WHERE user_id = '" . $_SESSION['user_id'] . "'";
         }
-        else {
+        else
+        {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
-            " birthdate = '$birthdate', city = '$city', state = '$state' WHERE user_id = '$user_id'";
+            " birthdate = '$birthdate', city = '$city', state = '$state' WHERE user_id = '" . $_SESSION['user_id'] . "'";
         }
         mysqli_query($dbc, $query);
 
-        // Confirm success with the user
         echo '<p>Your profile has been successfully updated. Would you like to <a href="viewprofile.php">view your profile</a>?</p>';
 
         mysqli_close($dbc);
         exit();
       }
-      else {
+      else
+      {
         echo '<p class="error">You must enter all of the profile data (the picture is optional).</p>';
       }
     }
-  } // End of check for form submission
+  }
+
   else
   {
-    // Grab the profile data from the database
-    $query = "SELECT first_name, last_name, gender, birthdate, city, state, picture FROM mismatch_user WHERE user_id = '$user_id'";
+    $query = "SELECT first_name, last_name, gender, birthdate, city, state, picture FROM mismatch_user WHERE user_id = '" . $_SESSION['user_id'] . "'";
     $data = mysqli_query($dbc, $query);
     $row = mysqli_fetch_array($data);
 
-    if ($row != NULL) {
+    if ($row != NULL)
+    {
       $first_name = $row['first_name'];
       $last_name = $row['last_name'];
       $gender = $row['gender'];
