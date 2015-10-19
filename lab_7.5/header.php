@@ -7,4 +7,4 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <h3>Mismatch - <?= $page_title ?></h3>
+    <h3><a href="index.php">Mismatch - <?= $page_title ?></a></h3>
