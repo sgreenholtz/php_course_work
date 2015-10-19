@@ -44,9 +44,7 @@
         }
     }
 
-    $page_title = "Log In";
     require_once('header.php');
-    require_once('navigation.php');
 
     if (empty($_SESSION['user_id'])) : ?>
         <p class="error"><?= $error_msg ?></p>

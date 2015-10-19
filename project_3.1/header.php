@@ -59,7 +59,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             <li><a class="navbar-brand" href="<?= SITE_ROOT ?>/index.php">Home</a></li>
-            <li><a href="<?= SITE_ROOT ?>/admin/admin.php">Admin</a></li>
+            <?php if (!isset($_SESSION['username'])) : ?>
+              <li><a href="<?= SITE_ROOT ?>/admin/admin.php">Admin</a></li>
+            <?php else : ?>
+              <li><a href="<?= SITE_ROOT ?>/admin/login.php">Admin</a></li>
+            <?php endif; ?>
           </ul>
         </div>
       </div>
