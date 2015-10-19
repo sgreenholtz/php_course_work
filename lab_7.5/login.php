@@ -43,18 +43,12 @@
             }
         }
     }
-?>
 
-<html>
-    <head>
-        <title>Mismatch - Log In</title>
-        <link rel="stylesheet" type="text/css" href="style/style.css" />
-    </head>
+    $page_title = "Log In";
+    require_once('header.php');
+    require_once('navigation.php');
 
-    <body>
-        <h3>Mismatch - Log In</h3>
-
-    <?php if (empty($_SESSION['user_id'])) : ?>
+    if (empty($_SESSION['user_id'])) : ?>
         <p class="error"><?= $error_msg ?></p>
 
     <form method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
@@ -73,7 +67,7 @@
 
     <?php else : ?>
         <p class="login">You are logged in as <?= $_COOKIE['$username']; ?></p>
-    <?php endif; ?>
+    <?php endif;
 
-</body>
-</html>
+    require_once('footer.php');
+?>

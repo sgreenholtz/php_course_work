@@ -329,3 +329,7 @@
 [19-Oct-2015 01:33:25 UTC] PHP Stack trace:
 [19-Oct-2015 01:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:0
 [19-Oct-2015 01:33:25 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_7/logout.php:4
+[19-Oct-2015 02:01:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USERNAME'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/lab_7.5/logout.php on line 4
+[19-Oct-2015 02:01:55 UTC] PHP Stack trace:
+[19-Oct-2015 02:01:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7.5/logout.php:0
+[19-Oct-2015 02:01:55 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/lab_7.5/logout.php:4

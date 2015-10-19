@@ -3,9 +3,6 @@
     $page_title = "Edit Profile";
     require_once('header.php');
     require_once('navigation.php');
-?>
-
-<?php
     require_once('appvars.php');
     require_once('connectvars.php');
 
@@ -196,5 +193,5 @@
         </fieldset>
         <input type="submit" value="Save Profile" name="submit" />
     </form>
-</body>
-</html>
+
+<?php require_once('footer.php') ?>
