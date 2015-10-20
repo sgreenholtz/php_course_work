@@ -1,0 +1,131 @@
+[19-Oct-2015 23:43:42 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:43:42 UTC] PHP Stack trace:
+[19-Oct-2015 23:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:43:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:43:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:43:42 UTC] PHP Stack trace:
+[19-Oct-2015 23:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:43:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:51:10 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:51:10 UTC] PHP Stack trace:
+[19-Oct-2015 23:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:51:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:51:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:51:10 UTC] PHP Stack trace:
+[19-Oct-2015 23:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:51:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:54:10 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:54:10 UTC] PHP Stack trace:
+[19-Oct-2015 23:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:54:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:54:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:54:10 UTC] PHP Stack trace:
+[19-Oct-2015 23:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:54:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:56:02 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:56:02 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:56:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:56:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[19-Oct-2015 23:56:02 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[19-Oct-2015 23:56:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[19-Oct-2015 23:56:04 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 2
+[19-Oct-2015 23:56:04 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 2
+[19-Oct-2015 23:56:04 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 11
+[19-Oct-2015 23:56:26 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:26 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:11
+[19-Oct-2015 23:56:26 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 12
+[19-Oct-2015 23:56:26 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:26 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:12
+[19-Oct-2015 23:56:26 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 13
+[19-Oct-2015 23:56:26 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:26 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:13
+[19-Oct-2015 23:56:26 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 48
+[19-Oct-2015 23:56:26 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[19-Oct-2015 23:56:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 48
+[19-Oct-2015 23:56:26 UTC] PHP Stack trace:
+[19-Oct-2015 23:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 11
+[20-Oct-2015 00:00:22 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:22 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:11
+[20-Oct-2015 00:00:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 12
+[20-Oct-2015 00:00:22 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:22 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:12
+[20-Oct-2015 00:00:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 13
+[20-Oct-2015 00:00:22 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:22 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:13
+[20-Oct-2015 00:00:22 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:22 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:22 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 11
+[20-Oct-2015 00:00:23 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:23 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:11
+[20-Oct-2015 00:00:23 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 12
+[20-Oct-2015 00:00:23 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:23 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:12
+[20-Oct-2015 00:00:23 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 13
+[20-Oct-2015 00:00:23 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:23 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:13
+[20-Oct-2015 00:00:23 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:23 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:23 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: NO) in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 11
+[20-Oct-2015 00:00:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:24 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:11
+[20-Oct-2015 00:00:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 12
+[20-Oct-2015 00:00:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:24 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:12
+[20-Oct-2015 00:00:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 13
+[20-Oct-2015 00:00:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:24 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:13
+[20-Oct-2015 00:00:24 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:44 UTC] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:44 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:00:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 46
+[20-Oct-2015 00:00:44 UTC] PHP Stack trace:
+[20-Oct-2015 00:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:01:24 UTC] PHP Warning:  require_once(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 68
+[20-Oct-2015 00:01:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:01:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'footer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 68
+[20-Oct-2015 00:01:24 UTC] PHP Stack trace:
+[20-Oct-2015 00:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php:0
+[20-Oct-2015 00:02:41 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[20-Oct-2015 00:02:41 UTC] PHP Stack trace:
+[20-Oct-2015 00:02:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[20-Oct-2015 00:02:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[20-Oct-2015 00:02:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3.1/admin/authenticate.php on line 2
+[20-Oct-2015 00:02:41 UTC] PHP Stack trace:
+[20-Oct-2015 00:02:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:0
+[20-Oct-2015 00:02:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/project_3.1/admin/admin.php:3
+[20-Oct-2015 00:04:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/php-course-work/project_3.1/admin/login.php on line 67

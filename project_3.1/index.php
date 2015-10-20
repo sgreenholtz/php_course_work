@@ -9,7 +9,7 @@
         exit("Database query error: [[$query]]" . mysql_error($dbc));
     }
 ?>
-
+<div class="container">
     <?php while ($record = mysqli_fetch_assoc($result)) { ?>
     <div class="col-md-12">
         <div class="well">
@@ -19,7 +19,7 @@
         </div>
     </div>
     <?php } ?>
-
+</div>
 <?php
     include('footer.php');
 ?>

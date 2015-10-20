@@ -6,7 +6,7 @@
 
     if (!isset($_COOKIE['user_id']))
     {
-        if (!isset($_POST['Log In']))
+        if (isset($_POST['Submit']))
         {
             $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
             $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
@@ -68,7 +68,7 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" />
         </fieldset>
-        <input type="submit" name="Submit" value="Log In" />
+        <input type="submit" name="Submit" value="Submit" />
     </form>
 
     <?php else : ?>
