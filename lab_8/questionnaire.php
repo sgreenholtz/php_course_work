@@ -56,7 +56,72 @@
     <?php
     }
 
+$create_form_query = "SELECT response_id, topic_id, response " .
+    "FROM mismatch_reponse WEHRE user_id = '" . $_SESSION['user_id'] . "'";
+
+$data_for_form = mysqli_query($dbc, $create_form_query);
+$responses = array();
+
+while ($select_row = mysqli_fetch_array($data_for_form))
+{
+    $topic_query = "SELECT name, category FROM mismatch_topic " .
+        "WHERE topic_id = '" . $row['topic_id'] . "'";
+    $topic_data = mysqli_query($dbc, $topic_query);
+
+    if (mysqli_num_rows($topic_data) == 1)
+    {
+        $topic_row = mysqli_fetch_array($topic_data);
+
+        $select_row['topic_name'] = $topic_row['name'];
+        $select_row['category_name'] = $topic_row['category'];
+        array_push($responses, $select_row);
+    }
+}
+
+mysqli_close();
 ?>
+
+<form method="post" action="<?= $_SERVER['PHP_SELF'] ?>" />
+    <p>How do you feel about each topic?</p>
+
+    <?php $category = $response[0]['category_name']; ?>
+
+    <fieldset>
+        <legend><?= $category ?></legend>
+
+    <?php
+    foreach ($responses as $response)
+    {
+        if ($category != $response['category_name'])
+        {
+    ?>
+        </fieldset>
+        <fieldset>
+            <legend><?= $response['category_name'] ?></legend>
+        <?php
+        }
+        ?>
+        <label <?php if ($response['response'] == NULL) { ?> class="error"
+            <?php } ?> for="<?= $response['response_id'] ?>">
+            <?= $response['topic_name'] ?>
+        </label>
+
+        <input type="radio" name="<?= $response['response_id'] ?>" value="1"
+            <?php if ($response['response'] == 1) { ?>  checked="checked" <?php } ?>
+            />Love
+        <input type="radio" name="<?= $response['response_id'] ?>" value="2"
+            <?php if ($response['response'] == 2) { ?>  checked="checked" <?php } ?>
+            />Hate<br />
+    <?php
+    }
+    ?>
+
+    </fieldset>
+    <input type="submit" value="Save Questionnaire" name="Submit" />;
+</form>
+
+
+
 
 <?php
     require_once('footer.php');
