@@ -337,3 +337,654 @@
 [19-Oct-2015 23:49:34 UTC] PHP Stack trace:
 [19-Oct-2015 23:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:0
 [19-Oct-2015 23:49:34 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/php-course-work/lab_7/editprofile.php:57
+[24-Oct-2015 17:39:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 21
+[24-Oct-2015 17:39:43 UTC] PHP Stack trace:
+[24-Oct-2015 17:39:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:39:43 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:21
+[24-Oct-2015 17:40:51 UTC] PHP Fatal error:  Call to undefined function mysqli_result() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 19
+[24-Oct-2015 17:40:51 UTC] PHP Stack trace:
+[24-Oct-2015 17:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:41:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 21
+[24-Oct-2015 17:41:06 UTC] PHP Stack trace:
+[24-Oct-2015 17:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:41:06 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:21
+[24-Oct-2015 17:41:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 21
+[24-Oct-2015 17:41:38 UTC] PHP Stack trace:
+[24-Oct-2015 17:41:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:41:38 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:21
+[24-Oct-2015 17:43:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 64
+[24-Oct-2015 17:43:34 UTC] PHP Stack trace:
+[24-Oct-2015 17:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:43:34 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:64
+[24-Oct-2015 17:43:34 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 80
+[24-Oct-2015 17:43:34 UTC] PHP Stack trace:
+[24-Oct-2015 17:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:43:34 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:80
+[24-Oct-2015 17:44:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 65
+[24-Oct-2015 17:44:24 UTC] PHP Stack trace:
+[24-Oct-2015 17:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:44:24 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:65
+[24-Oct-2015 17:44:24 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 81
+[24-Oct-2015 17:44:24 UTC] PHP Stack trace:
+[24-Oct-2015 17:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:44:24 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:81
+[24-Oct-2015 17:45:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 65
+[24-Oct-2015 17:45:09 UTC] PHP Stack trace:
+[24-Oct-2015 17:45:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:45:09 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:65
+[24-Oct-2015 17:45:09 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 81
+[24-Oct-2015 17:45:09 UTC] PHP Stack trace:
+[24-Oct-2015 17:45:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:45:09 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:81
+[24-Oct-2015 17:46:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 65
+[24-Oct-2015 17:46:19 UTC] PHP Stack trace:
+[24-Oct-2015 17:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:46:19 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:65
+[24-Oct-2015 17:48:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 65
+[24-Oct-2015 17:48:56 UTC] PHP Stack trace:
+[24-Oct-2015 17:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:48:56 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:65
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:50:21 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:21 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:50:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 65
+[24-Oct-2015 17:50:52 UTC] PHP Stack trace:
+[24-Oct-2015 17:50:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:50:52 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:65
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:51:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 71
+[24-Oct-2015 17:51:12 UTC] PHP Stack trace:
+[24-Oct-2015 17:51:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:51:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:71
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:04 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:25 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:52:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 70
+[24-Oct-2015 17:52:28 UTC] PHP Stack trace:
+[24-Oct-2015 17:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:52:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:70
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 17:54:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 67
+[24-Oct-2015 17:54:13 UTC] PHP Stack trace:
+[24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
