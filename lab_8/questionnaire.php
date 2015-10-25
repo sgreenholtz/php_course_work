@@ -45,17 +45,21 @@
     {
         foreach($_POST as $response_id => $response)
         {
-            $insert_answers_query = "UPDATE mismatch_reponse SET response = " .
-                "$response WHERE response_id = $response_id";
+            if ($response_id != "Submit")
+            {
+                $insert_answers_query = "UPDATE mismatch_reponse SET response = " .
+                    "$response WHERE response_id = $response_id";
 
-            mysqli_query($dbc, $insert_answers_query);
+                mysqli_query($dbc, $insert_answers_query)
+                    or die("Failed to update data.");
+            }
         }
         ?>
         <p>Your responses have been saved.</p>
     <?php
     }
 
-    $topic_query = "SELECT mismatch_response.topic_id, response, topic_name, " .
+    $topic_query = "SELECT response_id, response, topic_name, " .
             "category_name FROM mismatch_response LEFT JOIN mismatch_topic " .
             "ON mismatch_response.topic_id = mismatch_topic.topic_id " .
             "LEFT JOIN mismatch_category " .
@@ -70,7 +74,7 @@
     while ($row = mysqli_fetch_array($topic_data))
     {
         $result_row = array(
-            'topic_id'=>$row['topic_id'],
+            'response_id'=>$row['response_id'],
             'response'=>$row['response'],
             'topic_name'=>$row['topic_name'],
             'category_name'=>$row['category_name']
@@ -121,8 +125,6 @@
     </fieldset>
     <input type="submit" value="Save Questionnaire" name="Submit" />
 </form>
-
-
 
 
 <?php
