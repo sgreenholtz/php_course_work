@@ -47,7 +47,7 @@
         {
             if ($response_id != "Submit")
             {
-                $insert_answers_query = "UPDATE mismatch_reponse SET response = " .
+                $insert_answers_query = "UPDATE mismatch_response SET response = " .
                     "$response WHERE response_id = $response_id";
 
                 mysqli_query($dbc, $insert_answers_query)
