@@ -988,3 +988,91 @@
 [24-Oct-2015 17:54:13 UTC] PHP Stack trace:
 [24-Oct-2015 17:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
 [24-Oct-2015 17:54:13 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:67
+[24-Oct-2015 18:03:55 UTC] PHP Warning:  Illegal string offset 'category_name' in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 86
+[24-Oct-2015 18:03:55 UTC] PHP Stack trace:
+[24-Oct-2015 18:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 21:54:55 UTC] PHP Warning:  Illegal string offset 'category_name' in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 86
+[24-Oct-2015 21:54:55 UTC] PHP Stack trace:
+[24-Oct-2015 21:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 22:00:34 UTC] PHP Warning:  Illegal string offset 'category_name' in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 22:00:34 UTC] PHP Stack trace:
+[24-Oct-2015 22:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:28:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 69
+[24-Oct-2015 23:28:04 UTC] PHP Stack trace:
+[24-Oct-2015 23:28:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:28:04 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:69
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
+[24-Oct-2015 23:40:20 UTC] PHP Stack trace:
+[24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0

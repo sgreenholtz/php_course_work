@@ -1,6 +1,6 @@
 CREATE TABLE `mismatch_topic` (
   `topic_id` INT AUTO_INCREMENT,
-  `name` VARCHAR(48),
+  `topic_name` VARCHAR(48),
   `category_id` INT,
   PRIMARY KEY (`topic_id`)
 );

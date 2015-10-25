@@ -55,26 +55,28 @@
     <?php
     }
 
-    $create_form_query = "SELECT response_id, topic_id, response " .
-        "FROM mismatch_response WHERE user_id = '" . $_SESSION['user_id'] . "'";
+    $topic_query = "SELECT mismatch_response.topic_id, response, topic_name, " .
+            "category_name FROM mismatch_response LEFT JOIN mismatch_topic " .
+            "ON mismatch_response.topic_id = mismatch_topic.topic_id " .
+            "LEFT JOIN mismatch_category " .
+            "ON mismatch_topic.category_id = mismatch_category.category_id " .
+            "WHERE user_id= '" . $_SESSION['user_id'] . "'";
 
-    $data_for_form = mysqli_query($dbc, $create_form_query);
+    $topic_data = mysqli_query($dbc, $topic_query)
+        or die("Error in query: " . $topic_query);
+
     $responses = array();
 
-    while ($select_row = mysqli_fetch_array($data_for_form))
+    while ($row = mysqli_fetch_array($topic_data))
     {
-        $topic_query = "SELECT name, category_id FROM mismatch_topic " .
-            "WHERE topic_id = '" . $select_row['topic_id'] . "'";
-        $topic_data = mysqli_query($dbc, $topic_query);
+        $result_row = array(
+            'topic_id'=>$row['topic_id'],
+            'response'=>$row['response'],
+            'topic_name'=>$row['topic_name'],
+            'category_name'=>$row['category_name']
+            );
 
-        if (mysqli_num_rows($topic_data) == 1)
-        {
-            $topic_row = mysqli_fetch_array($topic_data);
-
-            $select_row['topic_name'] = $topic_row['name'];
-            $select_row['category_name'] = $topic_row['category'];
-            array_push($responses, $select_row);
-        }
+        array_push($responses, $result_row);
     }
 
     mysqli_close($dbc);
@@ -83,35 +85,36 @@
 <form method="post" action="<?= $_SERVER['PHP_SELF'] ?>" />
     <p>How do you feel about each topic?</p>
 
-    <?php $category = $response[0]['category_name']; ?>
-
     <fieldset>
-        <legend><?= $category ?></legend>
+        <legend><?= $responses[0]['category_name'] ?></legend>
 
     <?php
-    foreach ($responses as $response)
+    $i = 0;
+
+    while ($i < count($responses))
     {
-        if ($category != $response['category_name'])
+        if ($responses[$i]['category_name'] != $responses[$i-1]['category_name']
+            && $i != 0)
         {
     ?>
         </fieldset>
         <fieldset>
-            <legend><?= $response['category_name'] ?></legend>
+            <legend><?= $responses[$i]['category_name'] ?></legend>
         <?php
         }
         ?>
-        <label <?php if ($response['response'] == NULL) { ?> class="error"
-            <?php } ?> for="<?= $response['response_id'] ?>">
-            <?= $response['topic_name'] ?>
+        <label for="<?= $responses[$i]['response_id'] ?>">
+            <?= $responses[$i]['topic_name'] ?>
         </label>
 
-        <input type="radio" name="<?= $response['response_id'] ?>" value="1"
-            <?php if ($response['response'] == 1) { ?>  checked="checked" <?php } ?>
+        <input type="radio" name="<?= $responses[$i]['response_id'] ?>" value="1"
+            <?php if ($responses[$i]['response'] == 1) { ?>  checked="checked" <?php } ?>
             />Love
-        <input type="radio" name="<?= $response['response_id'] ?>" value="2"
-            <?php if ($response['response'] == 2) { ?>  checked="checked" <?php } ?>
+        <input type="radio" name="<?= $responses[$i]['response_id'] ?>" value="2"
+            <?php if ($responses[$i]['response'] == 2) { ?>  checked="checked" <?php } ?>
             />Hate<br />
     <?php
+        $i++;
     }
     ?>
 
