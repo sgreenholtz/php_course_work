@@ -61,9 +61,9 @@
 
     $topic_query = "SELECT response_id, response, topic_name, " .
             "category_name FROM mismatch_response LEFT JOIN mismatch_topic " .
-            "ON mismatch_response.topic_id = mismatch_topic.topic_id " .
+            "USING (topic_id) " .
             "LEFT JOIN mismatch_category " .
-            "ON mismatch_topic.category_id = mismatch_category.category_id " .
+            "USING (category_id) " .
             "WHERE user_id= '" . $_SESSION['user_id'] . "'";
 
     $topic_data = mysqli_query($dbc, $topic_query)

@@ -1076,3 +1076,147 @@
 [24-Oct-2015 23:40:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php on line 88
 [24-Oct-2015 23:40:20 UTC] PHP Stack trace:
 [24-Oct-2015 23:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/questionnaire.php:0
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 58
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:58
+[25-Oct-2015 15:02:09 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 66
+[25-Oct-2015 15:02:09 UTC] PHP Stack trace:
+[25-Oct-2015 15:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:02:09 UTC] PHP   2. array_slice() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:66
+[25-Oct-2015 15:06:14 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 66
+[25-Oct-2015 15:06:14 UTC] PHP Stack trace:
+[25-Oct-2015 15:06:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:06:14 UTC] PHP   2. array_slice() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:66
+[25-Oct-2015 15:10:57 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 18
+[25-Oct-2015 15:10:57 UTC] PHP Stack trace:
+[25-Oct-2015 15:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:10:57 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:18
+[25-Oct-2015 15:10:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 19
+[25-Oct-2015 15:10:57 UTC] PHP Stack trace:
+[25-Oct-2015 15:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:10:57 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:19
+[25-Oct-2015 15:10:57 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 139
+[25-Oct-2015 15:10:57 UTC] PHP Stack trace:
+[25-Oct-2015 15:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:10:57 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:139
+[25-Oct-2015 15:11:21 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 139
+[25-Oct-2015 15:11:21 UTC] PHP Stack trace:
+[25-Oct-2015 15:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:11:21 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:139
+[25-Oct-2015 15:26:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php on line 35
+[25-Oct-2015 15:26:54 UTC] PHP Stack trace:
+[25-Oct-2015 15:26:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:0
+[25-Oct-2015 15:26:54 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch.php:35
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 86
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:86
+[25-Oct-2015 15:34:34 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 94
+[25-Oct-2015 15:34:34 UTC] PHP Stack trace:
+[25-Oct-2015 15:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:34:34 UTC] PHP   2. array_slice() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:94
+[25-Oct-2015 15:49:06 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, object given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 55
+[25-Oct-2015 15:49:06 UTC] PHP Stack trace:
+[25-Oct-2015 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:49:06 UTC] PHP   2. array_unique() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:55
+[25-Oct-2015 15:49:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php on line 55
+[25-Oct-2015 15:49:06 UTC] PHP Stack trace:
+[25-Oct-2015 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
+[25-Oct-2015 15:49:06 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:55

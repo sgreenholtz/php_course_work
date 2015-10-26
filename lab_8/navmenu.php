@@ -2,6 +2,7 @@
     &#10084; <a href="viewprofile.php">View Profile</a><br />
     &#10084; <a href="editprofile.php">Edit Profile</a><br />
     &#10084; <a href="questionnaire.php">Edit Questionnaire</a><br />
+    &#10084; <a href="mymismatch.php">See Your Mismatch!</a><br />
     &#10084; <a href="logout.php">Log Out (<?= $_SESSION['username'] ?>)</a>
 <?php else : ?>
     &#10084; <a href="login.php">Log In</a><br />
