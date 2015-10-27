@@ -31,7 +31,6 @@
 
         $search_query = "SELECT * FROM riskyjobs WHERE ";
         $where_list = array();
-        $where_string = '';
 
         foreach ($final_search_terms as $word)
         {
@@ -40,13 +39,9 @@
 
         if (!empty($where_list))
         {
-            foreach ($where_list as $where)
-            {
-                $where_string .= $where;
-            }
+            $where_string = implode(' OR ', $where_list);
         }
 
-        $where_string = implode(' OR ', $where_string);
         $search_query .= $where_string;
 
         switch ($sort)
@@ -173,7 +168,7 @@
 
     <table border="0" cellpadding="2">
 
-        <tr class="heading">';
+        <tr class="heading">
         <?php echo generate_sort_links($user_search, $sort); ?>
         </tr>
 
