@@ -67,47 +67,47 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-          <form class="form-horizontal" action="<?= $_SERVER['PHP_SELF'] ?>" method="post" role="form">
+            <form class="form-horizontal" action="<?= $_SERVER['PHP_SELF'] ?>" method="post" role="form">
             <fieldset>
-              <legend>Madlibs</legend>
+                <legend>Madlibs</legend>
 
-              <div class="form-group">
-                <label for="noun" class="col-lg-2 control-label">Enter a noun:</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" name="noun" id="noun" >
+                <div class="form-group">
+                    <label for="noun" class="col-lg-2 control-label">Enter a noun:</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="noun" id="noun" >
+                    </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label for="verb" class="col-lg-2 control-label">Enter a verb:</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" name="verb" id="verb" >
+                <div class="form-group">
+                    <label for="verb" class="col-lg-2 control-label">Enter a verb:</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="verb" id="verb" >
+                    </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label for="adjective" class="col-lg-2 control-label">Enter an adjective:</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" name="adjective" id="adjective" >
+                <div class="form-group">
+                    <label for="adjective" class="col-lg-2 control-label">Enter an adjective:</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="adjective" id="adjective" >
+                    </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label for="adverb" class="col-lg-2 control-label">Enter an adverb:</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" name="adverb" id="adverb" >
+                <div class="form-group">
+                    <label for="adverb" class="col-lg-2 control-label">Enter an adverb:</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="adverb" id="adverb" >
+                    </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <div class="col-lg-10 col-lg-offset-2">
-                  <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
-              </div>
             </fieldset>
-          </form>
-        </div>
-        <hr>
+        </form>
+    </div>
+    <hr>
 <ul>
 	<!-- TODO: LOOP OVER STORIES AND DISPLAY THEM AS LIST ITEMS, NEWEST FIRST -->
 </ul>
@@ -115,7 +115,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Sebastian Greenholtz 2015</p>
                 </div>
             </div>
             <!-- /.row -->
