@@ -110,8 +110,30 @@
     <hr>
 <ul>
 	<!-- TODO: LOOP OVER STORIES AND DISPLAY THEM AS LIST ITEMS, NEWEST FIRST -->
+	<?php
+
+    if (isset($_POST['submit']))
+    {
+        $new_story = new Madlib;
+
+        $new_story->setNoun($_POST['noun']);
+        $new_story->setAdjective($_POST['adjective']);
+        $new_story->setAdverb($_POST['adverb']);
+        $new_story->setVerb($_POST['verb']);
+
+        $new_story->createStory();
+
+        echo "<li>" . $new_story->getStory() . "</li>";
+
+    }
+    else
+    {
+        
+    }
+    ?>
 </ul>
-        <!-- Footer -->
+    <!-- Footer -->
+    <hr>
         <footer>
             <div class="row">
                 <div class="col-lg-12">
@@ -129,6 +151,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.jss"></script>
+
 
 </body>
 

@@ -1220,3 +1220,19 @@
 [25-Oct-2015 15:49:06 UTC] PHP Stack trace:
 [25-Oct-2015 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:0
 [25-Oct-2015 15:49:06 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php-course-work/lab_8/mymismatch1.php:55
+[07-Nov-2015 22:39:07 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/php-course-work/lab_9/madlibs.php on line 33
+[07-Nov-2015 22:39:07 UTC] PHP Stack trace:
+[07-Nov-2015 22:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_9/index.php:0
+[07-Nov-2015 22:39:07 UTC] PHP   2. Madlib->setNoun() /home/ubuntu/workspace/php-course-work/lab_9/index.php:138
+[07-Nov-2015 22:50:20 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/php-course-work/lab_9/madlibs.php on line 13
+[07-Nov-2015 22:50:20 UTC] PHP Stack trace:
+[07-Nov-2015 22:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_9/index.php:0
+[07-Nov-2015 22:50:20 UTC] PHP   2. Madlib->getNoun() /home/ubuntu/workspace/php-course-work/lab_9/index.php:140
+[07-Nov-2015 22:52:40 UTC] PHP Fatal error:  Call to undefined function getNoun() in /home/ubuntu/workspace/php-course-work/lab_9/madlibs.php on line 63
+[07-Nov-2015 22:52:40 UTC] PHP Stack trace:
+[07-Nov-2015 22:52:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_9/index.php:0
+[07-Nov-2015 22:52:40 UTC] PHP   2. Madlib->createStory() /home/ubuntu/workspace/php-course-work/lab_9/index.php:144
+[07-Nov-2015 22:54:16 UTC] PHP Fatal error:  Call to undefined function getAdjective() in /home/ubuntu/workspace/php-course-work/lab_9/madlibs.php on line 56
+[07-Nov-2015 22:54:16 UTC] PHP Stack trace:
+[07-Nov-2015 22:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_9/index.php:0
+[07-Nov-2015 22:54:16 UTC] PHP   2. Madlib->createStory() /home/ubuntu/workspace/php-course-work/lab_9/index.php:144
