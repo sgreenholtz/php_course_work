@@ -53,9 +53,16 @@ class Madlib
         $this->adverb = $new_adverb;
     }
 
-    public function uploadStory()
+    private function uploadStory()
     {
-        // put story into the database
+        $dbc = mysqli_connect("localhost", "sgreenholtz", "", "lab_9_madlibs");
+        $insert_query = "INSERT INTO Madlibs (story,noun,verb,adjective,adverb)" .
+                        " VALUES ('$this->getStory()','$this->getNoun()'," .
+                        "'$this->getVerb()','$this->getAdjective()'," .
+                        "'$this->getAdverb()')";
+
+        mysqli_query($dbc, $insert_query)
+            or die("Error uploading story: " . $insert_query);
     }
 
     public function createStory()

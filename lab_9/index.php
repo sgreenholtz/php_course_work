@@ -122,14 +122,18 @@
         $new_story->setVerb($_POST['verb']);
 
         $new_story->createStory();
-
-        echo "<li>" . $new_story->getStory() . "</li>";
-
     }
-    else
+
+    $dbc = mysqli_connect("localhost", "sgreenholtz", "", "lab_9_madlibs");
+    $select_query = "SELECT story FROM Madlibs ORDER BY id DESC";
+    $stories = mysqli_query($dbc, $select_query)
+        or die("Error getting stories: " . $select_query);
+
+    while ($story = mysqli_fetch_assoc($stories))
     {
-        
+        echo "<li>" . $story['story'] . "</li>";
     }
+
     ?>
 </ul>
     <!-- Footer -->
