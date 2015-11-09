@@ -26,7 +26,7 @@
                     $_SESSION['username'] = $row['username'];
                     setcookie('username', $row['username'], time() + (60 * 60 * 8));
                     $admin_url = 'https://' . $_SERVER['HTTP_HOST'] .
-                        dirname($_SERVER['PHP_SELF']) . 'admin/admin.php';
+                        dirname($_SERVER['PHP_SELF']) . '/admin.php';
                     header('Location: ' . $admin_url);
                 }
                 else
