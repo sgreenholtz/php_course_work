@@ -1,7 +1,6 @@
 <?php
 
 require_once('../header.php');
-require_once('authenticate.php');
 require_once('../connectvars.php');
 
 if (isset($_GET['ID']) && isset($_GET['Title']) && isset($_GET['DatePosted']))
@@ -15,25 +14,29 @@ if (isset($_GET['ID']) && isset($_GET['Title']) && isset($_GET['DatePosted']))
         $blog_post = mysqli_fetch_array(mysqli_query($dbc, $get_blog_post))[0];
 ?>
 
-<div class="content">
+<div class="col-md-12">
 
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" id="blogform">
-
-        <!-- id should be carried through in hidden form element -->
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>"
+        class="form-horizontal" id="blogform">
         <input type="hidden" name="id" value="<?= $id ?>" />
 
-        <!--Set the title-->
-        <label for="title"><h3 id="postTitleLabel">Title: </label>
-        <input type="text" name="title" id="postTitleContent" value="<?= $title ?>"/> <br /><br />
+        <fieldset>
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <input type="text" name="title" id="title" class="form-control" value="<?= $title ?>"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <textarea name="blogpost" for="blogform" class="form-control"><?= $blog_post ?></textarea>
+                </div>
+            </div>
 
-        <!--Write the post-->
-        <textarea name="blogpost" for="blogform"><?= $blog_post ?></textarea>
-        <br /><br />
+        <input class="btn btn-primary" type="submit" value="Submit" name="Submit" id="submit" /></h2>
 
-        <!--Submit-->
-        <input type="submit" value="Submit" name="Submit" id="submit" /></h2>
-
+        </fieldset>
     </form>
+</div>
 
 <?php
     }

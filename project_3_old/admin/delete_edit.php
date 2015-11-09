@@ -1,6 +1,7 @@
 <?php
 
 require_once('../header.php');
+require_once('authenticate.php');
 require_once('../connectvars.php');
 
 $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME)
@@ -8,34 +9,32 @@ $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME)
 
 $select_query = "SELECT * FROM posts";
 $select_result = mysqli_query($dbc, $select_query);
-?>
 
-<div class="col-md-12">
-    <table class="table table-striped table-hover ">
+echo '<div class="content">';
+echo '<table>';
 
-<?php
 while ($row = mysqli_fetch_array($select_result))
 {
 ?>
     <tr>
-        <td><h4><?= $row['Title'] ?></h4><td>
-        <td><h5><?= $row['DatePosted'] ?></h5></td>
+        <td><strong><?= $row['Title'] ?></strong><td>
+        <td>&nbsp;&nbsp;&nbsp;</td> <!--whitespace for reading clarity -->
+        <td><?= $row['DatePosted'] ?></td>
         <td>
-            <a class="btn btn-danger" href="delete_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            <a href="delete_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
             &amp;DatePosted=<?= $row['DatePosted'] ?>">Delete</a>
         </td>
         <td>
-            <a class="btn btn-warning" href="edit_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
+            <a href="edit_post.php?ID=<?= $row['ID'] ?>&amp;Title=<?= $row['Title'] ?>
             &amp;DatePosted=<?= $row['DatePosted'] ?>">Edit</a>
         </td>
     </tr>
 <?php
 }
-?>
-    </table>
-</div>
 
-<?php
+echo '</table>';
+echo '</div>';
+
 mysqli_close($dbc);
 
 require_once('../footer.php');

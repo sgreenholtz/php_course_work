@@ -9,17 +9,17 @@
         exit("Database query error: [[$query]]" . mysql_error($dbc));
     }
 ?>
-
+<div class="container">
     <?php while ($record = mysqli_fetch_assoc($result)) { ?>
-
-    <div class="content">
-        <h3><?= $record['Title'] ?></h3>
-        <?= $record['BlogPost'] ?>
-        <p class="date">Posted: <?= $record['DatePosted'] ?></p>
+    <div class="col-md-12">
+        <div class="well">
+            <h3><?= $record['Title'] ?></h3>
+            <p><?= $record['BlogPost'] ?></p>
+            <p class="label label-info">Posted: <?= $record['DatePosted'] ?></p>
+        </div>
     </div>
-
     <?php } ?>
-
+</div>
 <?php
     include('footer.php');
 ?>
