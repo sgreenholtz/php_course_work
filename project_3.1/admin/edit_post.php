@@ -1,7 +1,6 @@
 <?php
 
 require_once('../header.php');
-require_once('authenticate.php');
 require_once('../connectvars.php');
 
 if (isset($_GET['ID']) && isset($_GET['Title']) && isset($_GET['DatePosted']))
