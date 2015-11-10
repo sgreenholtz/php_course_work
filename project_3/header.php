@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sebastian's Blog</title>
+    <title>Sebastian's Writing Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="https://bootswatch.com/darkly/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 
     <div class="container">
         <div class="row">
-            <h1>Sebastian's Blog</h1>
+            <h1>Sebastian's Writing Blog</h1>
         </div>
     </div>
 
