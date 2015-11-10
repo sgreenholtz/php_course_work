@@ -5,6 +5,7 @@
     $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
     $query = "SELECT * FROM posts ORDER BY id DESC;";
     $result = mysqli_query($dbc, $query);
+
     if (!$result)
     {
         exit("Database query error: [[$query]]" . mysql_error($dbc));

@@ -62,6 +62,7 @@
             <li><a href="<?= SITE_ROOT ?>/admin/login.php">Admin</a></li>
             <li><a href="<?= SITE_ROOT ?>/logout.php">Log Out</a></li>
             <li><a href="<?= SITE_ROOT ?>/story_summary.php">Story Summary</a></li>
+            <li><a href="<?= SITE_ROOT ?>/chapters.php">Chapters</a></li>
           </ul>
         </div>
       </div>
