@@ -1236,3 +1236,9 @@
 [07-Nov-2015 22:54:16 UTC] PHP Stack trace:
 [07-Nov-2015 22:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_9/index.php:0
 [07-Nov-2015 22:54:16 UTC] PHP   2. Madlib->createStory() /home/ubuntu/workspace/php-course-work/lab_9/index.php:144
+[09-Nov-2015 23:57:38 UTC] PHP Warning:  require_once(../header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/project_3/story_summary.php on line 2
+[09-Nov-2015 23:57:38 UTC] PHP Stack trace:
+[09-Nov-2015 23:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/story_summary.php:0
+[09-Nov-2015 23:57:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3/story_summary.php on line 2
+[09-Nov-2015 23:57:38 UTC] PHP Stack trace:
+[09-Nov-2015 23:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/story_summary.php:0
