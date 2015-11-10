@@ -16,7 +16,7 @@
     <?php while ($record = mysqli_fetch_assoc($result)) { ?>
     <div class="col-md-12">
         <div class="well">
-            <h3><?= $record['ID'] ?></h3>
+            <h3><?= $record['ChapterTitle'] ?></h3>
             <p><?= $record['ChapterText'] ?></p>
             <p class="label label-info">Posted: <?= $record['DatePosted'] ?></p>
         </div>
