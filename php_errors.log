@@ -1242,3 +1242,15 @@
 [09-Nov-2015 23:57:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_3/story_summary.php on line 2
 [09-Nov-2015 23:57:38 UTC] PHP Stack trace:
 [09-Nov-2015 23:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_3/story_summary.php:0
+[15-Nov-2015 16:36:30 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_10/index.php on line 115
+[15-Nov-2015 16:36:30 UTC] PHP Stack trace:
+[15-Nov-2015 16:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/index.php:0
+[15-Nov-2015 16:36:30 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_10/index.php on line 115
+[15-Nov-2015 16:36:30 UTC] PHP Stack trace:
+[15-Nov-2015 16:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/index.php:0
+[15-Nov-2015 16:38:47 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_10/index.php on line 108
+[15-Nov-2015 16:38:47 UTC] PHP Stack trace:
+[15-Nov-2015 16:38:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/index.php:0
+[15-Nov-2015 16:38:47 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_10/index.php on line 108
+[15-Nov-2015 16:38:47 UTC] PHP Stack trace:
+[15-Nov-2015 16:38:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/index.php:0
