@@ -12,6 +12,14 @@ class Electronics extends Product
     {
         $this->recyclable = $is_recyclable;
     }
+
+    public function __construct($new_title, $new_price, $new_description, $is_recyclable)
+    {
+        $this->title = $new_title;
+        $this->price = $new_price;
+        $this->description = $new_description;
+        $this->recyclable = $is_recyclable;
+    }
 }
 
 ?>

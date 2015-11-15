@@ -34,6 +34,13 @@ class Product
     {
         $this->price = $new_price;
     }
+
+    public function __construct($new_title, $new_price, $new_description)
+    {
+        $this->title = $new_title;
+        $this->price = $new_price;
+        $this->description = $new_description;
+    }
 }
 
 

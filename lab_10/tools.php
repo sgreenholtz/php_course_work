@@ -23,6 +23,14 @@ class Tools extends Product
     {
         $this->weight = $new_weight;
     }
+
+    public function __construct($new_title, $new_price, $new_description, $new_shipper, $new_weight)
+    {
+        $this->title = $new_title;
+        $this->price = $new_price;
+        $this->shipper = $new_shipper;
+        $this->weight = $new_weight;
+    }
 }
 
 

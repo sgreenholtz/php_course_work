@@ -58,7 +58,7 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">All Products</a>
+                        <a href="allProducts.php">All Products</a>
                     </li>
                 </ul>
             </div>
@@ -70,41 +70,21 @@
     <!-- Page Content -->
     <div class="container">
 
-    <form class="form-horizontal" action="addProduct.php" method="post" role="form">
+    <form class="form-horizontal" action="input.php" method="post" role="form">
       <fieldset>
         <legend>Add new product</legend>
 
         <div class="form-group">
           <label for="type" class="col-lg-2 control-label">Product Type</label>
           <div class="col-lg-10">
-            <select class="form-control" id="type" >
-                <option>Tools</option>
-                <option>Electronics</option>
-                <option>Other</option>
+            <select class="form-control" id="type" name="type">
+                <option value="Tools">Tools</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Product">Other</option>
             </select>
           </div>
         </div>
 
-        <div class="form-group">
-          <label for="title" class="col-lg-2 control-label">Product Title</label>
-          <div class="col-lg-10">
-            <input type="text" class="form-control" name="title" id="title" >
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="price" class="col-lg-2 control-label">Price</label>
-          <div class="col-lg-10">
-            <input type="text" class="form-control" name="price" id="price" >
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="description" class="col-lg-2 control-label">Description</label>
-          <div class="col-lg-10">
-            <textarea class="form-control" rows="3" id="description" name="description"></textarea>
-          </div>
-        </div>
         <div class="form-group">
           <div class="col-lg-10 col-lg-offset-2">
             <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button>

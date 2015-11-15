@@ -1,16 +1,31 @@
 <?php
-/*
-Create a PHP script called addProduct.php that will allow you to enter new product information into a form and save it to a database
 
-You might want to have a selection control that will display a different form based on whether you are adding a generic product, a tool,
-or electronics to the database
+if (isset($_POST['submit']))
+{
+    $type = $_POST['type'];
+    $title = $_POST['title'];
+    $price = $_POST['price'];
+    $description = $_POST['description'];
 
-Although you have a lot of flexibility, consider adding methods to the appropriate classes for handling the specific database insertions
-depending upon the product type
+    if ($type == "Tools")
+    {
+        $weight = $_POST['weight'];
+        $shipper = $_POST['shipper'];
 
-Although not required, you could even create separate methods in the different classes that handle the form entry depending upon the product
-type
-*/
+        $myProduct = new Tool($title, $price, $description, $shipper, $weight);
+    }
+    else if ($type == "Electronics")
+    {
+        $recyclable = $_POST['recyclable'];
+
+        $myProduct = new Electronics($title, $price, $description, $recyclable);
+    }
+    else
+    {
+        $myProduct = new Product($title, $price, $description);
+    }
+
+    $myProduct->upload;
+}
 
 ?>
-
