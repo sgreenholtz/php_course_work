@@ -32,6 +32,15 @@ class Tools extends Product
         $this->weight = $new_weight;
     }
 
+    public function upload()
+    {
+        $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'lab_10');
+        $query = "INSERT INTO Products (Title, Price, ProductType, Description, Shipper, Weight) " .
+            "VALUES ('$this->title', '$this->price', 'Tools', '$this->description', '$this->shipper', '$this->weight');";
+
+        mysqli_query($dbc, $query) or die("Error uploading: " . $query);
+        mysqli_close($dbc);
+    }
 }
 
 

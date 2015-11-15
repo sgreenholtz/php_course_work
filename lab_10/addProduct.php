@@ -15,11 +15,19 @@ if (isset($_POST['submit']))
         $weight = $_POST['weight'];
         $shipper = $_POST['shipper'];
 
-        $myProduct = new Tool($title, $price, $description, $shipper, $weight);
+        $myProduct = new Tools($title, $price, $description, $shipper, $weight);
     }
     else if ($type == "Electronics")
     {
         $recyclable = $_POST['recyclable'];
+        if ($recyclable == "yes")
+        {
+            $recyclable = 1;
+        }
+        else
+        {
+            $recyclable = 0;
+        }
 
         $myProduct = new Electronics($title, $price, $description, $recyclable);
     }

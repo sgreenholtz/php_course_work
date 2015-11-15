@@ -1274,3 +1274,6 @@
 [15-Nov-2015 18:20:00 UTC] PHP Stack trace:
 [15-Nov-2015 18:20:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/addProduct.php:0
 [15-Nov-2015 18:20:00 UTC] PHP   2. Product->upload() /home/ubuntu/workspace/php-course-work/lab_10/addProduct.php:31
+[15-Nov-2015 18:33:20 UTC] PHP Fatal error:  Class 'Tool' not found in /home/ubuntu/workspace/php-course-work/lab_10/addProduct.php on line 18
+[15-Nov-2015 18:33:20 UTC] PHP Stack trace:
+[15-Nov-2015 18:33:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_10/addProduct.php:0
