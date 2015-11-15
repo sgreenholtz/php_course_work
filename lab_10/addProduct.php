@@ -1,4 +1,7 @@
 <?php
+require_once('product.php');
+require_once('electronics.php');
+require_once('tools.php');
 
 if (isset($_POST['submit']))
 {
@@ -25,7 +28,9 @@ if (isset($_POST['submit']))
         $myProduct = new Product($title, $price, $description);
     }
 
-    $myProduct->upload;
+    $myProduct->upload();
+    header('Location: allProducts.php');
+
 }
 
 ?>

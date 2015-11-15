@@ -1,10 +1,3 @@
-<?php
-    require_once('product.php');
-    require_once('electronics.php');
-    require_once('tools.php');
-    require_once('addProduct.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,6 +52,9 @@
                     </li>
                     <li>
                         <a href="allProducts.php">All Products</a>
+                    </li>
+                    <li>
+                        <a href="index.php">Add Product</a>
                     </li>
                 </ul>
             </div>

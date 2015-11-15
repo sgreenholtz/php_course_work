@@ -41,6 +41,16 @@ class Product
         $this->price = $new_price;
         $this->description = $new_description;
     }
+
+    public function upload()
+    {
+        $dbc = mysqli_connect('localhost', 'sgreenholtz', '', 'lab_10');
+        $query = "INSERT INTO Products (Title, Price, Type, Description) " .
+            "VALUES ('$this->title', '$this->price', 'Product', '$this->description')";
+
+        mysqli_query($dbc, $query) or die("Error uploading: " . $query);
+        mysqli_close($dbc);
+    }
 }
 
 

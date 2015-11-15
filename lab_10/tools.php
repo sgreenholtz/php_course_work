@@ -31,6 +31,7 @@ class Tools extends Product
         $this->shipper = $new_shipper;
         $this->weight = $new_weight;
     }
+
 }
 
 
