@@ -30,7 +30,7 @@
         $output_form = 'yes';
     }
 
-    if ($output_form == 'yes') 
+    if ($output_form == 'yes')
     {
 ?>
 
@@ -66,9 +66,9 @@
     else if ($output_form == 'no')
     { ?>
         <p><?= $first_name ?> <?= $last_name ?>, thanks for registering with Risky Jobs!</p>
+        <p>Your phone number has been registered as: <?= $phone ?></p>
 
     <?php
-        $phone = preg_replace($phone_replace_regex, '', $phone);
         // code to insert data into the RiskyJobs database...
     }
 ?>
