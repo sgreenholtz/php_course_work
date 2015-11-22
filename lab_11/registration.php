@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <img src="riskyjobs_title.gif" alt="Risky Jobs" />
+    <a href="registration.php"><img src="riskyjobs_title.gif" alt="Risky Jobs" /></a>
     <img src="riskyjobs_fireman.jpg" alt="Risky Jobs" style="float:right" />
     <h3>Risky Jobs - Registration</h3>
 
@@ -67,6 +67,7 @@
     { ?>
         <p><?= $first_name ?> <?= $last_name ?>, thanks for registering with Risky Jobs!</p>
         <p>Your phone number has been registered as: <?= $phone ?></p>
+        <p>Your email has been registered as: <?= $email ?></p>
 
     <?php
         // code to insert data into the RiskyJobs database...
