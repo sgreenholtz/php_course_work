@@ -22,56 +22,16 @@
         $resume = $_POST['resume'];
         $output_form = 'no';
 
-        $phone_regex = '/^\(?[^0-1]\d{2}\)?(-|\s)?\d{3}(-|\s)?\d{4}$/';
-
-        if (empty($first_name)) : ?>
-            <p class="error">You forgot to enter your first name.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (empty($last_name)) : ?>
-            <p class="error">You forgot to enter your last name.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (empty($email)) : ?>
-            <p class="error">You forgot to enter your email address.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (empty($phone)) : ?>
-            <p class="error">You forgot to enter your phone number.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (preg_match($phone_regex, $phone)) : ?>
-            <p class="error">Your phone number is entered incorrectedly.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (empty($job)) : ?>
-            <p class="error">You forgot to enter your job preference.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
-
-        if (empty($resume)) : ?>
-            <p class="error">You forgot to enter your resume.</p>
-        <?php
-            $output_form = 'yes';
-        endif;
+        require_once('test_empty.php');
+        require_once('test_regex.php');
     }
     else
     {
         $output_form = 'yes';
     }
 
-    if ($output_form == 'yes') {
+    if ($output_form == 'yes') 
+    {
 ?>
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
@@ -103,9 +63,12 @@
 
 <?php
     }
-    else if ($output_form == 'no') {
-        echo '<p>' . $first_name . ' ' . $last_name . ', thanks for registering with Risky Jobs!</p>';
+    else if ($output_form == 'no')
+    { ?>
+        <p><?= $first_name ?> <?= $last_name ?>, thanks for registering with Risky Jobs!</p>
 
+    <?php
+        $phone = preg_replace($phone_replace_regex, '', $phone);
         // code to insert data into the RiskyJobs database...
     }
 ?>
