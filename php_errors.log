@@ -1287,3 +1287,8 @@
 [22-Nov-2015 17:38:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:0
 [22-Nov-2015 17:38:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:26
 [22-Nov-2015 17:38:21 UTC] PHP   3. preg_replace() /home/ubuntu/workspace/php-course-work/lab_11/test_regex.php:9
+[22-Nov-2015 17:50:03 UTC] PHP Warning:  preg_replace(): Empty regular expression in /home/ubuntu/workspace/php-course-work/lab_11/test_regex.php on line 11
+[22-Nov-2015 17:50:03 UTC] PHP Stack trace:
+[22-Nov-2015 17:50:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:0
+[22-Nov-2015 17:50:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:26
+[22-Nov-2015 17:50:03 UTC] PHP   3. preg_replace() /home/ubuntu/workspace/php-course-work/lab_11/test_regex.php:11
