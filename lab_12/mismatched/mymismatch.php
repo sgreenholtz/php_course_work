@@ -86,8 +86,6 @@
                 }
             }
 
-
-
             if ($score > $mismatch_score)
             {
                 $mismatch_score = $score;
@@ -97,7 +95,12 @@
             }
         }
 
-        print_r($mismatch_categories);
+        $category_count = array();
+        foreach(array_count_values($mismatch_categories) as $label => $count)
+        {
+            array_push($category_count, array($label=>$count));
+        }
+
         if ($mismatch_user_id != -1)
         {
             $user_select_query = "SELECT username, first_name, last_name, " .

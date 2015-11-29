@@ -14,3 +14,23 @@
 [29-Nov-2015 17:15:58 UTC] PHP Stack trace:
 [29-Nov-2015 17:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/editprofile.php:0
 [29-Nov-2015 17:15:58 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/editprofile.php:37
+[29-Nov-2015 18:27:05 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 103
+[29-Nov-2015 18:27:05 UTC] PHP Stack trace:
+[29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
+[29-Nov-2015 18:27:05 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 103
+[29-Nov-2015 18:27:05 UTC] PHP Stack trace:
+[29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
+[29-Nov-2015 18:27:05 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 103
+[29-Nov-2015 18:27:05 UTC] PHP Stack trace:
+[29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
+[29-Nov-2015 18:27:05 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 103
+[29-Nov-2015 18:27:05 UTC] PHP Stack trace:
+[29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
+[29-Nov-2015 18:27:05 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 103
+[29-Nov-2015 18:27:05 UTC] PHP Stack trace:
+[29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
