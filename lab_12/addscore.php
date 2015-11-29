@@ -94,6 +94,9 @@ if (isset($_POST['submit']))
     <br />
     <label for="screenshot">Screenshot:</label>
     <input type="file" id="screenshot" name="screenshot" />
+
+    <!-- captcha will go here -->
+
     <hr />
     <input type="submit" value="Add" name="submit" />
   </form>
