@@ -12,6 +12,7 @@
 <?php
 require_once('appvars.php');
 require_once('connectvars.php');
+require_once('captcha.php');
 
 if (isset($_POST['submit']))
 {
@@ -21,8 +22,9 @@ if (isset($_POST['submit']))
     $image_size = $_FILES['screenshot']['size'];
     $image_type = $_FILES['screenshot']['type'];
     $user_captcha = sha1($_POST['captcha']);
+    $captcha = $_POST['captchatext'];
 
-    if ($_SESSION['passphrase'] == $user_captcha)
+    if ($captcha == $user_captcha)
     {
 
         if (!empty($name) && !empty($score) && !empty($screenshot) &&
@@ -98,6 +100,7 @@ if (isset($_POST['submit']))
   <hr />
   <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
     <input type="hidden" name="MAX_FILE_SIZE" value="32768" />
+    <input type="hidden" name="captchatext" value="<?php echo $_SESSION['passphrase'] ?>" />
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" value="<?php if (!empty($name)) echo $name; ?>" /><br />
     <label for="score">Score:</label>
@@ -108,7 +111,7 @@ if (isset($_POST['submit']))
     <br />
     <label for="captcha">Type letters shown:</label>
     <input type="text" id="captcha" name="captcha" />
-    <img src="captcha.php" alt="Captcha Phrase" />
+    <img src="images/captcha.png" alt="Captcha" />
 
     <hr />
     <input type="submit" value="Add" name="submit" />

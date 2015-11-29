@@ -38,3 +38,87 @@
 [29-Nov-2015 18:58:58 UTC] PHP Stack trace:
 [29-Nov-2015 18:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
 [29-Nov-2015 18:58:58 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:71
+[29-Nov-2015 19:33:11 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php on line 34
+[29-Nov-2015 19:33:11 UTC] PHP Stack trace:
+[29-Nov-2015 19:33:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:0
+[29-Nov-2015 19:33:11 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:34
+[29-Nov-2015 19:33:11 UTC] PHP Warning:  imagepng(): Unable to open 'iamges/captcha.png' for writing: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php on line 37
+[29-Nov-2015 19:33:11 UTC] PHP Stack trace:
+[29-Nov-2015 19:33:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:0
+[29-Nov-2015 19:33:11 UTC] PHP   2. imagepng(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:37
+[29-Nov-2015 19:33:11 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php on line 34
+[29-Nov-2015 19:33:11 UTC] PHP Stack trace:
+[29-Nov-2015 19:33:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:0
+[29-Nov-2015 19:33:11 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:34
+[29-Nov-2015 19:49:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:49:25 UTC] PHP Stack trace:
+[29-Nov-2015 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:49:25 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:49:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:49:25 UTC] PHP Stack trace:
+[29-Nov-2015 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:49:25 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[29-Nov-2015 19:49:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 22
+[29-Nov-2015 19:49:25 UTC] PHP Stack trace:
+[29-Nov-2015 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:49:25 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:22
+[29-Nov-2015 19:50:13 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:50:13 UTC] PHP Stack trace:
+[29-Nov-2015 19:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:50:13 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:50:13 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:50:13 UTC] PHP Stack trace:
+[29-Nov-2015 19:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:50:13 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[29-Nov-2015 19:50:13 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 22
+[29-Nov-2015 19:50:13 UTC] PHP Stack trace:
+[29-Nov-2015 19:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:50:13 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:22
+[29-Nov-2015 19:52:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:52:56 UTC] PHP Stack trace:
+[29-Nov-2015 19:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:52:56 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:52:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:52:56 UTC] PHP Stack trace:
+[29-Nov-2015 19:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:52:56 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[29-Nov-2015 19:52:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 22
+[29-Nov-2015 19:52:56 UTC] PHP Stack trace:
+[29-Nov-2015 19:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:52:56 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:22
+[29-Nov-2015 19:53:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:53:57 UTC] PHP Stack trace:
+[29-Nov-2015 19:53:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:53:57 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:53:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:53:57 UTC] PHP Stack trace:
+[29-Nov-2015 19:53:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:53:57 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[29-Nov-2015 19:53:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 22
+[29-Nov-2015 19:53:57 UTC] PHP Stack trace:
+[29-Nov-2015 19:53:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:53:57 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:22
+[29-Nov-2015 19:54:53 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:54:53 UTC] PHP Stack trace:
+[29-Nov-2015 19:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:54:53 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:54:53 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:54:53 UTC] PHP Stack trace:
+[29-Nov-2015 19:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:54:53 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[29-Nov-2015 19:54:53 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 22
+[29-Nov-2015 19:54:53 UTC] PHP Stack trace:
+[29-Nov-2015 19:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:54:53 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:22
+[29-Nov-2015 19:58:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 19
+[29-Nov-2015 19:58:06 UTC] PHP Stack trace:
+[29-Nov-2015 19:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:58:06 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:19
+[29-Nov-2015 19:58:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 20
+[29-Nov-2015 19:58:06 UTC] PHP Stack trace:
+[29-Nov-2015 19:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:58:06 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:20
+[29-Nov-2015 19:58:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php on line 21
+[29-Nov-2015 19:58:06 UTC] PHP Stack trace:
+[29-Nov-2015 19:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[29-Nov-2015 19:58:06 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
