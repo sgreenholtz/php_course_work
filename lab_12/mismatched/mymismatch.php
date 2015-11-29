@@ -99,7 +99,7 @@
         $category_count = array();
         foreach(array_count_values($mismatch_categories) as $label => $count)
         {
-            array_push($category_count, array($label=>$count));
+            array_push($category_count, array($label, $count));
         }
 
         if ($mismatch_user_id != -1)
@@ -149,15 +149,17 @@
                 </table>
 
                 <?php draw_graph($category_count, 480, 240, 5, MM_UPLOADPATH . 'mymismatchgraph.png'); ?>
+
+                <h4>Mismatched category breakdown:</h4>
                 <img src="<?= MM_UPLOADPATH ?>mymismatchgraph.png" alt="Mismatch category graph" />
 
                 <h4>You are mismatch on the following <?= count($mismatch_topics) ?> topics:</h4>
-            <?php
+                <?php
                 foreach ($mismatch_topics as $topic)
                 {
-                    echo $topic . "<br />";
+                    echo $topic . '<br />';
                 }
-            ?>
+                ?>
                 <h4>View <a href=viewprofile.php?user_id='<?= $mismatch_user_id
                     ?>'><?= $user['first_name'] ?>'s profile</a>.</h4>
             <?php

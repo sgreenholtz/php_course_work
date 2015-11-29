@@ -34,3 +34,7 @@
 [29-Nov-2015 18:27:05 UTC] PHP Stack trace:
 [29-Nov-2015 18:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
 [29-Nov-2015 18:27:05 UTC] PHP   2. array_push(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:103
+[29-Nov-2015 18:58:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php on line 71
+[29-Nov-2015 18:58:58 UTC] PHP Stack trace:
+[29-Nov-2015 18:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:0
+[29-Nov-2015 18:58:58 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/mismatched/mymismatch.php:71
