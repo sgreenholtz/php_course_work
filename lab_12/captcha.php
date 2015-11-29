@@ -14,6 +14,8 @@ for ($i=0; $i<7; $i++)
     $passphrase .= chr(rand(97, 122));
 }
 
+$_SESSION['passphrase'] = sha1($passphrase);
+
 imagefilledrectangle($img, 0, 0, CAPTCHA_WIDTH, CAPTCHA_HEIGHT, $bg_color);
 
 for ($i=0; $i<5; $i++)
@@ -29,10 +31,10 @@ for ($i=0; $i<50; $i++)
 }
 
 imagettftext($img, 18, 0, 5, CAPTCHA_HEIGHT-5, $text_color,
-    'Courier New Bold.ttf', $passphrase);
+    "Courier New Bold.ttf", $passphrase);
 
 header("Content-type: image/png");
 imagepng($img);
 
-
+imagedestroy($img);
 ?>

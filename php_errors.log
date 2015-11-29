@@ -1292,3 +1292,29 @@
 [22-Nov-2015 17:50:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:0
 [22-Nov-2015 17:50:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_11/registration.php:26
 [22-Nov-2015 17:50:03 UTC] PHP   3. preg_replace() /home/ubuntu/workspace/php-course-work/lab_11/test_regex.php:11
+[29-Nov-2015 16:27:25 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/captcha.php on line 32
+[29-Nov-2015 16:27:25 UTC] PHP Stack trace:
+[29-Nov-2015 16:27:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:0
+[29-Nov-2015 16:27:25 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:32
+[29-Nov-2015 16:30:17 UTC] PHP Fatal error:  Call to undefined function shal() in /home/ubuntu/workspace/php-course-work/lab_12/captcha.php on line 17
+[29-Nov-2015 16:30:17 UTC] PHP Stack trace:
+[29-Nov-2015 16:30:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:0
+[29-Nov-2015 16:30:32 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/captcha.php on line 34
+[29-Nov-2015 16:30:32 UTC] PHP Stack trace:
+[29-Nov-2015 16:30:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:0
+[29-Nov-2015 16:30:32 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:34
+[29-Nov-2015 16:31:16 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/captcha.php on line 34
+[29-Nov-2015 16:31:16 UTC] PHP Stack trace:
+[29-Nov-2015 16:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:0
+[29-Nov-2015 16:31:16 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:34
+[29-Nov-2015 16:31:58 UTC] PHP Fatal error:  Call to undefined function SHA() in /home/ubuntu/workspace/php-course-work/lab_12/captcha1.php on line 16
+[29-Nov-2015 16:31:58 UTC] PHP Stack trace:
+[29-Nov-2015 16:31:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha1.php:0
+[29-Nov-2015 16:32:25 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/captcha1.php on line 40
+[29-Nov-2015 16:32:25 UTC] PHP Stack trace:
+[29-Nov-2015 16:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha1.php:0
+[29-Nov-2015 16:32:25 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/captcha1.php:40
+[29-Nov-2015 16:36:23 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/captcha.php on line 34
+[29-Nov-2015 16:36:23 UTC] PHP Stack trace:
+[29-Nov-2015 16:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:0
+[29-Nov-2015 16:36:23 UTC] PHP   2. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/captcha.php:34

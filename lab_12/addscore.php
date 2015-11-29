@@ -15,73 +15,84 @@ require_once('connectvars.php');
 
 if (isset($_POST['submit']))
 {
-    // Grab the score data from the POST
     $name = mysqli_real_escape_string($dbc, trim($_POST['name']));
     $score = mysqli_real_escape_string($dbc, trim($_POST['score']));
     $screenshot = mysqli_real_escape_string($dbc, trim($_FILES['screenshot']['name']));
     $image_size = $_FILES['screenshot']['size'];
     $image_type = $_FILES['screenshot']['type'];
+    $user_captcha = sha1($_POST['captcha']);
 
-    if (!empty($name) && !empty($score) && !empty($screenshot) &&
-        is_numeric($score))
+    if ($_SESSION['passphrase'] == $user_captcha)
     {
-        // Move the uploaded image to the images file
-        $target = GW_UPLOADPATH . $screenshot;
 
-        if ($image_size > 0 && $image_size < GW_FILESIZE)
+        if (!empty($name) && !empty($score) && !empty($screenshot) &&
+            is_numeric($score))
         {
-            if (!($image_type == 'image/gif' || $image_type == 'image/jpeg' ||
-              $image_type == 'image/pjpeg' || $image_type == 'image/png'))
+            $target = GW_UPLOADPATH . $screenshot;
+
+            if ($image_size > 0 && $image_size < GW_FILESIZE)
             {
-                echo '<p class="error">Please choose a valid image file.</p>';
-            } // end of if file type validation
-            else
-            {
-                if (move_uploaded_file($_FILES['screenshot']['tmp_name'], $target))
-                {
-                    // Connect to the database
-                    $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
-
-                    // Write the data to the database
-                    $query = "INSERT INTO uploads (date, name, score, " .
-                        "screenshot) VALUES (NOW(), '$name', '$score', " .
-                        "'$screenshot')";
-                    mysqli_query($dbc, $query);
-
-                    // Confirm success with the user
-                    echo '<p>Thanks for adding your new high score!</p>';
-                    echo '<p><strong>Name:</strong> ' . $name . '<br />';
-                    echo '<strong>Score:</strong> ' . $score . '<br />';
-                    echo '<img src="' . GW_UPLOADPATH . $screenshot . '" alt="Score image" /></p>';
-                    echo '<p><a href="index.php">&lt;&lt; Back to high scores</a></p>';
-
-                    // Clear the score data to clear the form
-                    $name = "";
-                    $score = "";
-                    $screenshot = "";
-
-                    mysqli_close($dbc);
-                } // end of if successfully moved file
+                if (!($image_type == 'image/gif' || $image_type == 'image/jpeg' ||
+                  $image_type == 'image/pjpeg' || $image_type == 'image/png'))
+                { ?>
+                    <p class="error">Please choose a valid image file.</p>
+                <?php
+                }
                 else
                 {
-                    echo '<p class="error">Error moving file, please try again.</p>';
-                } // end of else not successful moving file
+                    if (move_uploaded_file($_FILES['screenshot']['tmp_name'], $target))
+                    {
+                        $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PW, DB_NAME);
 
-            } // end of else image type validation
+                        $query = "INSERT INTO uploads (date, name, score, " .
+                            "screenshot) VALUES (NOW(), '$name', '$score', " .
+                            "'$screenshot')";
+                        mysqli_query($dbc, $query);
 
-        } // end of if file size
+                        ?>
+
+                        <p>Thanks for adding your new high score!</p>
+                        <p><strong>Name:</strong><?= $name ?><br />
+                        <strong>Score:</strong><?= $score ?><br />
+                        <img src="<?= GW_UPLOADPATH . $screenshot ?>" alt="Score image" /></p>
+                        <p><a href="index.php">&lt;&lt; Back to high scores</a></p>
+
+                        <?php
+                        $name = "";
+                        $score = "";
+                        $screenshot = "";
+
+                        mysqli_close($dbc);
+                    }
+                    else
+                    {?>
+                        <p class="error">Error moving file, please try again.</p>
+                    <?php
+                    }
+
+                }
+
+            }
+            else
+            { ?>
+                <p class="error">Please choose an image less than 32 KB.</p>
+            <?php
+            }
+
+        }
         else
-        {
-            echo '<p class="error">Please choose an image less than 32 KB.</p>';
-        } // end of else file size
-
-    } // end of if empty
+        {?>
+            <p class="error">Please enter all information.</p>
+        <?php
+        }
+    }
     else
-    {
-        echo '<p class="error">Please enter all information.</p>';
-    } // end of else empty
+    { ?>
+        <p class="error">Please enter the captcha text correctly.</p>
+    <?php
+    }
 
-} // end of if submitted
+}
 ?>
 
   <hr />
@@ -95,7 +106,9 @@ if (isset($_POST['submit']))
     <label for="screenshot">Screenshot:</label>
     <input type="file" id="screenshot" name="screenshot" />
 
-    <!-- captcha will go here -->
+    <label for="captcha">Type letters shown:</label>
+    <input type="text" id="captcha" name="captcha" />
+    <img src="captcha.php" alt="Captcha Phrase" />
 
     <hr />
     <input type="submit" value="Add" name="submit" />
