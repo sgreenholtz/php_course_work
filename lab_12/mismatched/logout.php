@@ -1,25 +1,22 @@
 <?php
-    require_once('connectvars.php');
+  // If the user is logged in, delete the session vars to log them out
+  session_start();
+  if (isset($_SESSION['user_id'])) {
+    // Delete the session vars by clearing the $_SESSION array
+    $_SESSION = array();
 
-    $dbc = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+    // Delete the session cookie by setting its expiration to an hour ago (3600)
+    if (isset($_COOKIE[session_name()])) {      setcookie(session_name(), '', time() - 3600);    }
 
-    session_start();
-    if (isset($_SESSION['user_id']))
-    {
-        $_SESSION = array();
+    // Destroy the session
+    session_destroy();
+  }
 
-        if (isset($_COOKIE[session_name()]))
-        {
-            setcookie(session_name(), '', time() - 3600);
-        }
-        session_destroy();
-    }
+  // Delete the user ID and username cookies by setting their expirations to an hour ago (3600)
+  setcookie('user_id', '', time() - 3600);
+  setcookie('username', '', time() - 3600);
 
-    setcookie('username', '', time() - 3600);
-    setcookie('user_id', '', time() - 3600);
-
-    $home_url = 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) .
-        '/index.php';
-    header('Location: ' . $home_url);
-
+  // Redirect to the home page
+  $home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/index.php';
+  header('Location: ' . $home_url);
 ?>

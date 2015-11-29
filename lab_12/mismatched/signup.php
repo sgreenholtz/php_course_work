@@ -1,78 +1,64 @@
 <?php
-    $page_title = "Sign Up";
-    require_once('header.php');
-    require_once('navigation.php');
-    require_once('appvars.php');
-    require_once('connectvars.php');
+  // Insert the page header
+  $page_title = 'Sign Up';
+  require_once('header.php');
 
-    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+  require_once('appvars.php');
+  require_once('connectvars.php');
 
-    if (isset($_POST['Submit']))
-    {
-        $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
-        $password1 = mysqli_real_escape_string($dbc, trim($_POST['password1']));
-        $password2 = mysqli_real_escape_string($dbc, trim($_POST['password2']));
+  // Connect to the database
+  $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
+  if (isset($_POST['submit'])) {
+    // Grab the profile data from the POST
+    $username = mysqli_real_escape_string($dbc, trim($_POST['username']));
+    $password1 = mysqli_real_escape_string($dbc, trim($_POST['password1']));
+    $password2 = mysqli_real_escape_string($dbc, trim($_POST['password2']));
 
-        if (!empty($username) && !empty($password1) && !empty($password2) &&
-            $password1 == $password2)
-        {
-            $unique_user_query = "SELECT * FROM mismatch_user WHERE username = " .
-                "'$username'";
-            $unique_user_result = mysqli_query($dbc, $unique_user_query);
+    if (!empty($username) && !empty($password1) && !empty($password2) && ($password1 == $password2)) {
+      // Make sure someone isn't already registered using this username
+      $query = "SELECT * FROM mismatch_user WHERE username = '$username'";
+      $data = mysqli_query($dbc, $query);
+      if (mysqli_num_rows($data) == 0) {
+        // The username is unique, so insert the data into the database
+        $query = "INSERT INTO mismatch_user (username, password, join_date) VALUES ('$username', SHA('$password1'), NOW())";
+        mysqli_query($dbc, $query);
 
-            if (mysqli_num_rows($unique_user_result) == 0)
-            {
-                $todays_date = date(Y-m-d);
-                $insert_user_query = "INSERT INTO mismatch_user " .
-                    "(username, password, join_date) VALUES ".
-                    "('$username', SHA('$password1'), NOW())";
+        // Confirm success with the user
+        echo '<p>Your new account has been successfully created. You\'re now ready to <a href="login.php">log in</a>.</p>';
 
-                mysqli_query($dbc, $insert_user_query);
-            ?>
-
-                <p>Your new account has been successfully created. You're now
-                ready to log  in and <a href="editprofile.php">edit your
-                profile</a>.</p>
-
-            <?php
-                mysqli_close($dbc);
-                exit();
-            }
-            else
-            { ?>
-                <p class="error">An account already exists for this username.
-                Please choose something else.</p>
-
-            <?php
-                $username = "";
-            }
-        }
-        else
-        { ?>
-            <p class="error">You must enter all of the sign-up information.</p>
-        <?php }
+        mysqli_close($dbc);
+        exit();
+      }
+      else {
+        // An account already exists for this username, so display an error message
+        echo '<p class="error">An account already exists for this username. Please use a different address.</p>';
+        $username = "";
+      }
     }
-    mysqli_close($dbc);
+    else {
+      echo '<p class="error">You must enter all of the sign-up data, including the desired password twice.</p>';
+    }
+  }
+
+  mysqli_close($dbc);
 ?>
 
-    <p>Please enter a username and password to sign up for Mismatch.</p>
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <fieldset>
-            <legend>Registration Info</legend>
+  <p>Please enter your username and desired password to sign up to Mismatch.</p>
+  <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <fieldset>
+      <legend>Registration Info</legend>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" value="<?php if (!empty($username)) echo $username; ?>" /><br />
+      <label for="password1">Password:</label>
+      <input type="password" id="password1" name="password1" /><br />
+      <label for="password2">Password (retype):</label>
+      <input type="password" id="password2" name="password2" /><br />
+    </fieldset>
+    <input type="submit" value="Sign Up" name="submit" />
+  </form>
 
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username"
-                value="<?php if (!empty($username)) { echo $username; } ?>"/><br />
-
-            <label for="password1">Password:</label>
-            <input type="password" id="password1" name="password1" /><br />
-
-            <label for="password2">Password (retype):</label>
-            <input type="password" id="password2" name="password2" /><br />
-
-        </fieldset>
-    <input type="submit" name="Submit" value="Submit" />
-    </form>
-
-<?php require_once('footer.php'); ?>
+<?php
+  // Insert the page footer
+  require_once('footer.php');
+?>

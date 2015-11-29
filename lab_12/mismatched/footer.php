@@ -1,4 +1,4 @@
-    <hr />
-    <p class="footer">&copy; 2015 Mismatch Enterprise Inc</p>
+  <hr />
+  <p class="footer">Copyright &copy;2008 Mismatch Enterprises, Inc.</p>
 </body>
 </html>
