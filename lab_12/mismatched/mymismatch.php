@@ -148,10 +148,11 @@
                     </tr>
                 </table>
 
-                <?php draw_graph($category_count, 480, 240, 5, MM_UPLOADPATH . 'mymismatchgraph.png'); ?>
+                <?php draw_graph($category_count, 480, 240, 5, MM_UPLOADPATH .
+                    $_SESSION['user_id'] .'-mymismatchgraph.png'); ?>
 
                 <h4>Mismatched category breakdown:</h4>
-                <img src="<?= MM_UPLOADPATH ?>mymismatchgraph.png" alt="Mismatch category graph" />
+                <img src="<?= MM_UPLOADPATH . $_SESSION['user_id'] ?>-mymismatchgraph.png" alt="Mismatch category graph" />
 
                 <h4>You are mismatch on the following <?= count($mismatch_topics) ?> topics:</h4>
                 <?php
