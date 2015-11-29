@@ -24,7 +24,7 @@ for ($i=0; $i<5; $i++)
 
 for ($i=0; $i<50; $i++)
 {
-    imagesetpixel($img, rand() % CAPTCHA_HEIGHT, CAPTCHA_WIDTH,
+    imagesetpixel($img, rand() % CAPTCHA_HEIGHT,
         rand() % CAPTCHA_HEIGHT, $graphic_color);
 }
 
