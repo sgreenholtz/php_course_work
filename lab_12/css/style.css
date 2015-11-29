@@ -3,18 +3,19 @@
   color: #FF0000;
 }
 
-.login {
-  font-style: italic;
+.score {
+  font-size:150%;
+  color: #36407F;
 }
 
-form label {  display: inline-block;  width: 150px;
-  font-weight: bold;
-}
-
-td.label {
-  font-weight: bold;
-}
-
-img.profile {
+.scoreinfo {
   vertical-align: top;
+  padding-right:15px;
+}
+
+.topscore {
+  text-align: center;
+  font-size: 200%;
+  background-color: #36407F;
+  color: #FFFFFF;
 }
