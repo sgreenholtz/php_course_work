@@ -4,6 +4,7 @@
     require_once('header.php');
     require_once('appvars.php');
     require_once('connectvars.php');
+    require_once('bar_graph.php');
 
     if (!isset($_SESSION['user_id'])) : ?>
         <p class="login">Please <a href="login.php">log in</a> to access this page.</p>
@@ -146,6 +147,9 @@
                         </td>
                     </tr>
                 </table>
+
+                <?php draw_graph($category_count, 480, 240, 5, MM_UPLOADPATH . 'mymismatchgraph.png'); ?>
+                <img src="<?= MM_UPLOADPATH ?>mymismatchgraph.png" alt="Mismatch category graph" />
 
                 <h4>You are mismatch on the following <?= count($mismatch_topics) ?> topics:</h4>
             <?php
