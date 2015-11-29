@@ -1,9 +1,9 @@
 <?php
-$phone_regex = "/^\(?[2-9]\d{2}\)?(\-|\s)?\d{3}(\-|\s)?\d{4}$/";
+$phone_regex = "/^\(?[2-9]\d{2}\)?[\-\s]?\d{3}[\-\s]?\d{4}$/";
 $phone_replace = "/[\(\)\-\s]/";
 
-$email_regex = "/^.+@.+\..+$/";
-$domain_check_replace = "/^.+@/";
+$email_regex = "/[a-zA-Z0-9]+\w*@\w+\.\w+/";
+$domain_check_replace = "/^\w+@/";
 
 if (!(preg_match($phone_regex, $phone))) : ?>
     <p class="error">Your phone number is entered incorrectedly.</p>
