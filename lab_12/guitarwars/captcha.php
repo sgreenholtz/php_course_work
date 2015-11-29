@@ -32,7 +32,7 @@ for ($i=0; $i<50; $i++)
 
 imagettftext($img, 18, 0, 5, CAPTCHA_HEIGHT-5, $text_color,
     "Courier New Bold.ttf", $passphrase);
-
+header('Cache-Control: no-cache, must-revalidate');
 header("Content-type: image/png");
 imagepng($img);
 

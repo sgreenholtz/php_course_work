@@ -105,7 +105,7 @@ if (isset($_POST['submit']))
     <br />
     <label for="screenshot">Screenshot:</label>
     <input type="file" id="screenshot" name="screenshot" />
-
+    <br />
     <label for="captcha">Type letters shown:</label>
     <input type="text" id="captcha" name="captcha" />
     <img src="captcha.php" alt="Captcha Phrase" />
