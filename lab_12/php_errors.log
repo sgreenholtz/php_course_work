@@ -122,3 +122,23 @@
 [29-Nov-2015 19:58:06 UTC] PHP Stack trace:
 [29-Nov-2015 19:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
 [29-Nov-2015 19:58:06 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:21
+[01-Dec-2015 00:29:07 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php on line 15
+[01-Dec-2015 00:29:07 UTC] PHP Stack trace:
+[01-Dec-2015 00:29:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php:0
+[01-Dec-2015 00:32:29 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php on line 15
+[01-Dec-2015 00:32:29 UTC] PHP Stack trace:
+[01-Dec-2015 00:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php:0
+[01-Dec-2015 00:32:29 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php on line 33
+[01-Dec-2015 00:32:29 UTC] PHP Stack trace:
+[01-Dec-2015 00:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:0
+[01-Dec-2015 00:32:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/addscore.php:15
+[01-Dec-2015 00:32:29 UTC] PHP   3. imagettftext(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/php-course-work/lab_12/guitarwars/captcha.php:33
+[01-Dec-2015 00:35:41 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php on line 15
+[01-Dec-2015 00:35:41 UTC] PHP Stack trace:
+[01-Dec-2015 00:35:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php:0
+[01-Dec-2015 00:37:07 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php on line 15
+[01-Dec-2015 00:37:07 UTC] PHP Stack trace:
+[01-Dec-2015 00:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php:0
+[01-Dec-2015 00:47:50 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php on line 15
+[01-Dec-2015 00:47:50 UTC] PHP Stack trace:
+[01-Dec-2015 00:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_12/guitarwars.1/addscore.php:0

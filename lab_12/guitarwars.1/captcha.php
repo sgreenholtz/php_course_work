@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     define('CAPTCHA_WIDTH', 100);
     define('CAPTCHA_HEIGHT', 25);
 
@@ -14,7 +14,7 @@
         $passphrase .= chr(rand(97, 122));
     }
 
-    $_SESSION['passphrase'] = sha1($passphrase);
+    $_SESSION['passphrase'] = $passphrase;
 
     imagefilledrectangle($img, 0, 0, CAPTCHA_WIDTH, CAPTCHA_HEIGHT, $bg_color);
 
@@ -31,9 +31,9 @@
     }
 
     imagettftext($img, 18, 0, 0, 20, $text_color, './Courier New Bold.ttf', $passphrase);
-    //imagestring($img, 5, 5, 5, $passphrase, $text_color);
 
-    imagepng($img, 'images/captcha.png', 5);
+    header("Content-type: image/png");
+    imagepng($img);
     imagedestroy($img);
 
 ?>
