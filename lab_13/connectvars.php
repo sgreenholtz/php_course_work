@@ -1,6 +1,6 @@
 <?php
-    define('DB_HOST', 'data.aliensabductedme.com');
-    define('DB_USER', 'owen');
-    define('DB_PASSWORD', 'aliensrool');
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'sgreenholtz');
+    define('DB_PASSWORD', '');
     define('DB_NAME', 'aliendatabase');
 ?>
