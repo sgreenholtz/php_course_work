@@ -91,8 +91,6 @@ if (isset($_POST['submit']))
     { ?>
         <p class="error">Please enter the captcha text correctly.</p>
     <?php
-        echo 'Session: ' . $_SESSION['passphrase'] . '<br />';
-        echo $user_captcha;
     }
 
 }
