@@ -1417,3 +1417,39 @@
 [03-Dec-2015 01:02:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/project_4/index.php on line 3
 [03-Dec-2015 01:02:21 UTC] PHP Stack trace:
 [03-Dec-2015 01:02:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_4/index.php:0
+[06-Dec-2015 16:59:01 UTC] PHP Warning:  require_once(Google/Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 16:59:01 UTC] PHP Stack trace:
+[06-Dec-2015 16:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 16:59:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Client.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 16:59:01 UTC] PHP Stack trace:
+[06-Dec-2015 16:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:05:49 UTC] PHP Warning:  require_once(/path/to/your-project/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 2
+[06-Dec-2015 17:05:49 UTC] PHP Stack trace:
+[06-Dec-2015 17:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:05:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/path/to/your-project/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 2
+[06-Dec-2015 17:05:49 UTC] PHP Stack trace:
+[06-Dec-2015 17:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:06:12 UTC] PHP Warning:  require_once(Google/Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:06:12 UTC] PHP Stack trace:
+[06-Dec-2015 17:06:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:06:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Client.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:06:12 UTC] PHP Stack trace:
+[06-Dec-2015 17:06:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:07:12 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 2
+[06-Dec-2015 17:07:12 UTC] PHP Stack trace:
+[06-Dec-2015 17:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:07:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 2
+[06-Dec-2015 17:07:12 UTC] PHP Stack trace:
+[06-Dec-2015 17:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:08:08 UTC] PHP Warning:  require_once(Google/Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:08:08 UTC] PHP Stack trace:
+[06-Dec-2015 17:08:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:08:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Client.php' (include_path='/home/ubuntu/workspace/php-course-work/vendor/phpseclib/phpseclib/phpseclib:.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:08:08 UTC] PHP Stack trace:
+[06-Dec-2015 17:08:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:09:24 UTC] PHP Warning:  require_once(Google/Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:09:24 UTC] PHP Stack trace:
+[06-Dec-2015 17:09:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[06-Dec-2015 17:09:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Client.php' (include_path='/home/ubuntu/workspace/php-course-work/vendor/phpseclib/phpseclib/phpseclib:.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
+[06-Dec-2015 17:09:24 UTC] PHP Stack trace:
+[06-Dec-2015 17:09:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
