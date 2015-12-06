@@ -1,6 +1,5 @@
 <?php header('Content-Type: text/xml'); ?>
-
-<?xml version="1.0" encoding="utf-8"?>
+<?php echo '<?xml version="1.0" encoding="utf-8"?>' ?>
 <rss version="2.0">
     <channel>
         <title>Aliens Abducted Me - Newsfeed</title>
@@ -23,14 +22,14 @@
         "ORDER BY when_it_happened DESC";
     $sightings = mysqli_query($dbc, $query);
 
-    while ($sighting = mysqli_fetch_array($sightings))
+    while ($report = mysqli_fetch_array($sightings))
     {
     ?>
         <item>
-        <title><?= $row['first_name'] ?> <?= $row['last_name'] ?> - <?= substr($row['alien_description'], 0, 32) ?>...</title>
-        <link>http://www.aliensabductedme.com/index.php?abduction_id=<?= $row['abduction_id'] ?></link>
-        <pubDate><?= $row['when_it_happened_rfc'] ?> <?= date('T') ?></pubDate>
-        <description><?= $row['what_they_did'] ?></description>
+            <title><?= $report['first_name'] ?> <?= $report['last_name'] ?> - <?= substr($report['alien_description'], 0, 32) ?>...</title>
+            <link>http://www.aliensabductedme.com/index.php?abduction_id=<?= $report['abduction_id'] ?></link>
+            <pubDate><?= $report['when_it_happened_rfc'] ?> <?= date('T') ?></pubDate>
+            <description><?= $report['what_they_did'] ?></description>
         </item>
     <?php
     }
