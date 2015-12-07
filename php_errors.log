@@ -1453,3 +1453,135 @@
 [06-Dec-2015 17:09:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Client.php' (include_path='/home/ubuntu/workspace/php-course-work/vendor/phpseclib/phpseclib/phpseclib:.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 19
 [06-Dec-2015 17:09:24 UTC] PHP Stack trace:
 [06-Dec-2015 17:09:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 22
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 23
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 03:20:06 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 03:20:06 UTC] PHP Stack trace:
+[07-Dec-2015 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/index.php:0
+[07-Dec-2015 03:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/php-course-work/lab_13/index.php:72
+[07-Dec-2015 23:37:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php-course-work/project_4/flickr.php on line 6
+[07-Dec-2015 23:37:04 UTC] PHP Stack trace:
+[07-Dec-2015 23:37:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_4/flickr.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:40:35 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:40:35 UTC] PHP Stack trace:
+[07-Dec-2015 23:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:41:53 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:41:53 UTC] PHP Stack trace:
+[07-Dec-2015 23:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:43:16 UTC] PHP Warning:  main(): Node no longer exists in /home/ubuntu/workspace/php-course-work/lab_13/youtube.php on line 28
+[07-Dec-2015 23:43:16 UTC] PHP Stack trace:
+[07-Dec-2015 23:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/lab_13/youtube.php:0
+[07-Dec-2015 23:51:06 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/ubuntu/workspace/php-course-work/project_4/flickr.php on line 12
+[07-Dec-2015 23:51:06 UTC] PHP Stack trace:
+[07-Dec-2015 23:51:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-course-work/project_4/flickr.php:0

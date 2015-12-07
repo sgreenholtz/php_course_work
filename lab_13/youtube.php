@@ -18,23 +18,26 @@
         $title = $media->group->title;
 
         $yt = $media->children('http://gdata.youtube.com/schemas/2007');
-        $attrs = $yt->duration->attributes();
-        $length_min = floor($attrs['seconds'] / 60);
-        $length_sec = $attrs['seconds'] % 60;
-        $length_formatted = $length_min . (($length_min != 1) ? ' minutes, ':' minute, ') .
-        $length_sec . (($length_sec != 1) ? ' seconds':' second');
+        //$attrs = $yt->duration->attributes();
+        //$length_min = floor($attrs['seconds'] / 60);
+        //$length_sec = $attrs['seconds'] % 60;
+        //$length_formatted = $length_min . (($length_min != 1) ? ' minutes, ':' minute, ') .
+        //$length_sec . (($length_sec != 1) ? ' seconds':' second');
 
-        $attrs = $media->group->player->attributes();
-        $video_url = $attrs['url'];
+        $attrs = $entry->link->attributes();
+        $video_url = $attrs['href'];
 
         $attrs = $media->group->thumbnail[0]->attributes();
         $thumbnail_url = $attrs['url'];
+
+        $attrs = $entry->link->attributes();
+        $updated_date = $attrs['updated'];
 
         ?>
         <td style="vertical-align:bottom; text-align:center" width="
             <?= (100 / NUM_VIDEOS) ?>%"><a href="<?= $video_url ?>">
             <?= $title ?><br /><span style="font-size:smaller">
-            <?= $length_formatted ?></span><br /><img src="
+            <?= $updated_date ?></span><br /><img src="
             <?= $thumbnail_url ?>" /></a></td>
         <?php
         }
