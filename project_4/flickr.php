@@ -5,10 +5,14 @@
 
     foreach ($xml->entry as $entry)
     {
-        //echo $entry->content;
+
         $atts = $entry->category->attributes();
         $tags = $atts['term'];
 
-        print_r($tags);
+        if ($tags[0] != '')
+        {
+            echo $entry->content;
+        }
+
     }
 ?>
