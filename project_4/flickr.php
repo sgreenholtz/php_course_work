@@ -5,6 +5,13 @@
 
     foreach ($xml->entry as $entry)
     {
-        echo $entry->content;
+    ?>
+        <div class="col-md-4">
+            <div class="well">
+                <p><?php echo $entry->content; ?></p>
+            </div>
+        </div>
+    <?php
     }
 ?>
+
